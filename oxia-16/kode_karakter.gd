@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var move_speed : float = 200.0
+var move_speed : float = 500.0
 
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
 
