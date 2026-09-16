@@ -148,8 +148,15 @@ animations = [{
 "speed": 15.0
 }]
 
+<<<<<<< HEAD
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1651639844]
 scale = Vector2(0.5, 0.5)
+=======
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
+size = Vector2(150, 323)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1651639844 groups=["Player"]]
+>>>>>>> e3e3205b0ea9e7015d539c721fd6cf74e3aade2a
 script = ExtResource("1_pu1kf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=396470316]
@@ -160,6 +167,14 @@ frame = 2
 frame_progress = 0.9533778
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1880749887]
+<<<<<<< HEAD
 zoom = Vector2(0.35, 0.35)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1913001110]
+=======
+zoom = Vector2(0.2, 0.2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1675124475]
+position = Vector2(-4, 15.5)
+shape = SubResource("RectangleShape2D_1vivr")
+>>>>>>> e3e3205b0ea9e7015d539c721fd6cf74e3aade2a
