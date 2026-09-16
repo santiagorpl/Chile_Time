@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1mvbtrsr6nij"
-path="res://.godot/imported/atap.png-c1eeb4f285ba16ca5eec5f7f876d2204.ctex"
+path="res://.godot/imported/atap.png-487135b83e8c715a0c002b5da12662c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/atap/atap.png"
-dest_files=["res://.godot/imported/atap.png-c1eeb4f285ba16ca5eec5f7f876d2204.ctex"]
+source_file="res://asset/asset_Santiago/atap/atap.png"
+dest_files=["res://.godot/imported/atap.png-487135b83e8c715a0c002b5da12662c8.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1p3h04br6ndb"
-path="res://.godot/imported/bawah.png-151fa650eccf8870f5a6117e4f888df8.ctex"
+path="res://.godot/imported/bawah.png-b38c1204e2df0967df75b1cdca5acf87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/karakter/bawah.png"
-dest_files=["res://.godot/imported/bawah.png-151fa650eccf8870f5a6117e4f888df8.ctex"]
+source_file="res://asset/asset_Santiago/karakter/bawah.png"
+dest_files=["res://.godot/imported/bawah.png-b38c1204e2df0967df75b1cdca5acf87.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm8igwxqnwbh3"
-path="res://.godot/imported/pohon_pinus_rindang.png-55189184931d1012b72a9974f745c51d.ctex"
+path="res://.godot/imported/pohon_pinus_rindang.png-d8178ec32459e13bb9a652a311f39316.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/pohon/pohon_pinus_rindang.png"
-dest_files=["res://.godot/imported/pohon_pinus_rindang.png-55189184931d1012b72a9974f745c51d.ctex"]
+source_file="res://asset/asset_Santiago/pohon/pohon_pinus_rindang.png"
+dest_files=["res://.godot/imported/pohon_pinus_rindang.png-d8178ec32459e13bb9a652a311f39316.ctex"]
 
 [params]
 

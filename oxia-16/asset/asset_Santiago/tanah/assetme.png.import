@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3wwpxgfd1xdp"
-path="res://.godot/imported/assetme.png-ee7ffa29ca284b6a0986ff9e4c4b3672.ctex"
+path="res://.godot/imported/assetme.png-12c7dcd357564310eb93f431bc58e65e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/tanah/assetme.png"
-dest_files=["res://.godot/imported/assetme.png-ee7ffa29ca284b6a0986ff9e4c4b3672.ctex"]
+source_file="res://asset/asset_Santiago/tanah/assetme.png"
+dest_files=["res://.godot/imported/assetme.png-12c7dcd357564310eb93f431bc58e65e.ctex"]
 
 [params]
 

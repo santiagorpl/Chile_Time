@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b48aswnfyru17"
-path="res://.godot/imported/pohon_kelapa.png-250884a927a5e40870851886eef2c3c5.ctex"
+path="res://.godot/imported/pohon_kelapa.png-228fb92df9ab9d7567e0d30c56b8d34a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/pohon/pohon_kelapa.png"
-dest_files=["res://.godot/imported/pohon_kelapa.png-250884a927a5e40870851886eef2c3c5.ctex"]
+source_file="res://asset/asset_Santiago/pohon/pohon_kelapa.png"
+dest_files=["res://.godot/imported/pohon_kelapa.png-228fb92df9ab9d7567e0d30c56b8d34a.ctex"]
 
 [params]
 

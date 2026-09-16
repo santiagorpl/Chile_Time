@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://caco5w1gtmxhm"
-path="res://.godot/imported/bangunana.png-458dc505aeff501a346d8547e648c9d7.ctex"
+uid="uid://dfe1dxm7v7krh"
+path="res://.godot/imported/flade.png-5ea1ffc3bb508669c3a2d7ac9573ecaa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/atap/bangunana.png"
-dest_files=["res://.godot/imported/bangunana.png-458dc505aeff501a346d8547e648c9d7.ctex"]
+source_file="res://asset/Karakter/karakter_santiago/flade.png"
+dest_files=["res://.godot/imported/flade.png-5ea1ffc3bb508669c3a2d7ac9573ecaa.ctex"]
 
 [params]
 

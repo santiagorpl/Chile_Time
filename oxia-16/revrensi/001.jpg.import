@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://caco5w1gtmxhm"
-path="res://.godot/imported/bangunana.png-458dc505aeff501a346d8547e648c9d7.ctex"
+uid="uid://dyodd8sivy77v"
+path="res://.godot/imported/001.jpg-8bace1364a1aa281a1371233d1996253.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/atap/bangunana.png"
-dest_files=["res://.godot/imported/bangunana.png-458dc505aeff501a346d8547e648c9d7.ctex"]
+source_file="res://revrensi/001.jpg"
+dest_files=["res://.godot/imported/001.jpg-8bace1364a1aa281a1371233d1996253.ctex"]
 
 [params]
 

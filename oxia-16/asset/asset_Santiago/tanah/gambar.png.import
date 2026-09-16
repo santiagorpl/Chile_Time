@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxlnl48wnt8li"
-path="res://.godot/imported/gambar.png-99e471e9a13e95b36c78377f1172e164.ctex"
+path="res://.godot/imported/gambar.png-425792ea924c0f4e0f922b7615ad6094.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/tanah/gambar.png"
-dest_files=["res://.godot/imported/gambar.png-99e471e9a13e95b36c78377f1172e164.ctex"]
+source_file="res://asset/asset_Santiago/tanah/gambar.png"
+dest_files=["res://.godot/imported/gambar.png-425792ea924c0f4e0f922b7615ad6094.ctex"]
 
 [params]
 

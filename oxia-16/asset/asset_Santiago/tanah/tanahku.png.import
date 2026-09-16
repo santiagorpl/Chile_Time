@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc66cov7pj8b8"
-path="res://.godot/imported/tanahku.png-9dd7658b476e749ee931b3bbe95eeea8.ctex"
+path="res://.godot/imported/tanahku.png-91b9e8e1e95a0ca8f9fd9acc3a995fb2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_santiago/tanah/tanahku.png"
-dest_files=["res://.godot/imported/tanahku.png-9dd7658b476e749ee931b3bbe95eeea8.ctex"]
+source_file="res://asset/asset_Santiago/tanah/tanahku.png"
+dest_files=["res://.godot/imported/tanahku.png-91b9e8e1e95a0ca8f9fd9acc3a995fb2.ctex"]
 
 [params]
 
