@@ -149,14 +149,17 @@ animations = [{
 }]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1651639844]
+scale = Vector2(0.5, 0.5)
 script = ExtResource("1_pu1kf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=396470316]
-scale = Vector2(1.5, 1.5)
+scale = Vector2(1.1, 1.1)
 sprite_frames = SubResource("SpriteFrames_m0dig")
 animation = &"jalan_kiri"
 frame = 2
 frame_progress = 0.9533778
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1880749887]
-zoom = Vector2(0.2, 0.2)
+zoom = Vector2(0.35, 0.35)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1913001110]
