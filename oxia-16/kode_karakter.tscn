@@ -148,7 +148,10 @@ animations = [{
 "speed": 15.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1651639844]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
+size = Vector2(150, 323)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1651639844 groups=["Player"]]
 script = ExtResource("1_pu1kf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=396470316]
@@ -160,3 +163,7 @@ frame_progress = 0.9533778
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1880749887]
 zoom = Vector2(0.2, 0.2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1675124475]
+position = Vector2(-4, 15.5)
+shape = SubResource("RectangleShape2D_1vivr")

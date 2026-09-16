@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="oxia16"
+run/main_scene="uid://bjw1ari0gkqs"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -22,6 +23,10 @@ window/stretch/aspect="expand"
 [dotnet]
 
 project/assembly_name="oxia16"
+
+[global_group]
+
+Player=""
 
 [input]
 
