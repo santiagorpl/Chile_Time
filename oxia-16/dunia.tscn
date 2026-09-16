@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://btgmrm4j5jffk" path="res://kode_karakter.tscn" id="2_i6oci"]
 [ext_resource type="PackedScene" uid="uid://kugg2qt0sqia" path="res://portal.tscn" id="4_qd6tr"]
 [ext_resource type="Script" uid="uid://dfj61fu3krjtu" path="res://area_2d.gd" id="5_qd6tr"]
+[ext_resource type="Texture2D" uid="uid://bbu7q6wg0vkhm" path="res://asset/asset_Melvin/desa.jpg" id="6_j6kj6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c41f1"]
 texture = ExtResource("1_yd3ya")
@@ -680,6 +681,11 @@ script = ExtResource("5_qd6tr")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1445307679]
 position = Vector2(749, -85)
 shape = SubResource("CircleShape2D_1vivr")
+
+[node name="Desa" type="Sprite2D" parent="." unique_id=2033705250]
+position = Vector2(2944, 130)
+scale = Vector2(1.8868003, 2.6079545)
+texture = ExtResource("6_j6kj6")
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]
