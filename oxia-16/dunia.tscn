@@ -653,6 +653,11 @@ radius = 223.89507
 
 [node name="dunia" type="Node2D" unique_id=2039005189]
 
+[node name="Desa" type="Sprite2D" parent="." unique_id=2033705250]
+position = Vector2(2029.0001, -2278)
+scale = Vector2(2.9108958, 3.2335227)
+texture = ExtResource("6_j6kj6")
+
 [node name="TileMap" type="TileMap" parent="." unique_id=1989858932]
 tile_set = SubResource("TileSet_1vivr")
 format = 2
@@ -673,19 +678,14 @@ scale = Vector2(11.135, 11.135)
 position = Vector2(329.86078, -89.806915)
 
 [node name="CharacterBody2D" parent="." unique_id=1651639844 instance=ExtResource("2_i6oci")]
-position = Vector2(281, 292)
+position = Vector2(1869, -2225)
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1333686608]
 script = ExtResource("5_qd6tr")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1445307679]
-position = Vector2(749, -85)
+position = Vector2(481, -1005)
 shape = SubResource("CircleShape2D_1vivr")
-
-[node name="Desa" type="Sprite2D" parent="." unique_id=2033705250]
-position = Vector2(2944, 130)
-scale = Vector2(1.8868003, 2.6079545)
-texture = ExtResource("6_j6kj6")
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
 [connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]
