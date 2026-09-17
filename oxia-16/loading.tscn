@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 [gd_scene format=3 uid="uid://dflou58felfen"]
 
 [ext_resource type="Script" uid="uid://bopgjexu8wrkb" path="res://loading.gd" id="1_gov4d"]
+=======
+[gd_scene format=3 uid="uid://cn8v7k2awxuqj"]
+
+[ext_resource type="Script" path="res://loading.gd" id="1_gov4d"]
+>>>>>>> Stashed changes
 [ext_resource type="Texture2D" uid="uid://bbusqyeg7n1yr" path="res://asset/asset_Santiago/kapal/kapal1.png" id="2_pg7vo"]
 
 [sub_resource type="Animation" id="Animation_1l04a"]
