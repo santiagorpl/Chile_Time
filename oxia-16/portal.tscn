@@ -57,6 +57,7 @@ animations = [{
 size = Vector2(13, 30)
 
 [node name="Area2D" type="Area2D" unique_id=1249990832 groups=["player"]]
+position = Vector2(1, 0)
 script = ExtResource("1_ef3v5")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=130470614]
