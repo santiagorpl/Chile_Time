@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qkp313n6fft6"
-path="res://.godot/imported/tenda.png-2fba91992bdbf2c8d2ba67714da5f976.ctex"
+uid="uid://cw47o2587n127"
+path="res://.godot/imported/tenda.png-da10561a2a6418c38ff9120959c24ae3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/asset rt/tenda.png"
-dest_files=["res://.godot/imported/tenda.png-2fba91992bdbf2c8d2ba67714da5f976.ctex"]
+source_file="res://asset/asset_Santiago/maps/tenda.png"
+dest_files=["res://.godot/imported/tenda.png-da10561a2a6418c38ff9120959c24ae3.ctex"]
 
 [params]
 

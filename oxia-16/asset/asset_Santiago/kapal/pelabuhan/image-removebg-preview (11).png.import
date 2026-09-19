@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k64o2ft6urky"
-path="res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"
+uid="uid://b64ig7xiepm1h"
+path="res://.godot/imported/image-removebg-preview (11).png-420774d6ea769e2e9875fd649cef1e1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/maps/perapian.png"
-dest_files=["res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"]
+source_file="res://asset/asset_Santiago/kapal/pelabuhan/image-removebg-preview (11).png"
+dest_files=["res://.godot/imported/image-removebg-preview (11).png-420774d6ea769e2e9875fd649cef1e1a.ctex"]
 
 [params]
 

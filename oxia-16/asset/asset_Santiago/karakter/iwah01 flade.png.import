@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k64o2ft6urky"
-path="res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"
+uid="uid://bkyrsmlo1tti5"
+path="res://.godot/imported/iwah01 flade.png-07478a015e6fb64f1a7f35f8ff7decaa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/maps/perapian.png"
-dest_files=["res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"]
+source_file="res://asset/asset_Santiago/karakter/iwah01 flade.png"
+dest_files=["res://.godot/imported/iwah01 flade.png-07478a015e6fb64f1a7f35f8ff7decaa.ctex"]
 
 [params]
 

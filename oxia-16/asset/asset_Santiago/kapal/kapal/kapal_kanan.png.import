@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyo6ta5kqqafn"
-path="res://.godot/imported/warung ikan.png-92eaf4697199543980907444250e4734.ctex"
+uid="uid://tdpf8h0pda1s"
+path="res://.godot/imported/kapal_kanan.png-2bee7de1f024f15bed9f66e13320fc81.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/runah/warung ikan.png"
-dest_files=["res://.godot/imported/warung ikan.png-92eaf4697199543980907444250e4734.ctex"]
+source_file="res://asset/asset_Santiago/kapal/kapal/kapal_kanan.png"
+dest_files=["res://.godot/imported/kapal_kanan.png-2bee7de1f024f15bed9f66e13320fc81.ctex"]
 
 [params]
 

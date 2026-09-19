@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k64o2ft6urky"
-path="res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"
+uid="uid://ctssjusweeths"
+path="res://.godot/imported/kapal_rusak - Copy.png-75f58365a22ec573bcbb1e5e0464f844.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/maps/perapian.png"
-dest_files=["res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"]
+source_file="res://asset/asset_Santiago/kapal/kapal/kapal_rusak - Copy.png"
+dest_files=["res://.godot/imported/kapal_rusak - Copy.png-75f58365a22ec573bcbb1e5e0464f844.ctex"]
 
 [params]
 

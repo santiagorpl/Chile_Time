@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k64o2ft6urky"
-path="res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"
+uid="uid://crnq265mhy3sk"
+path="res://.godot/imported/kapal_kiri - Copy.png-2f87e011b8a3f8137c777a2583441ff1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/maps/perapian.png"
-dest_files=["res://.godot/imported/perapian.png-e84a965354e8f6366fc4ff3ca8d8e574.ctex"]
+source_file="res://asset/asset_Santiago/kapal/kapal/kapal_kiri - Copy.png"
+dest_files=["res://.godot/imported/kapal_kiri - Copy.png-2f87e011b8a3f8137c777a2583441ff1.ctex"]
 
 [params]
 

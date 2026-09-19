@@ -1,10 +1,22 @@
 [gd_scene format=3 uid="uid://btgmrm4j5jffk"]
 
 [ext_resource type="Script" uid="uid://dr37ol4atdtpx" path="res://kode_karakter.gd" id="1_pu1kf"]
+[ext_resource type="Texture2D" uid="uid://cbwvbyluhk1h8" path="res://asset/asset_Santiago/karakter/JADI.png" id="2_pu1kf"]
 [ext_resource type="Texture2D" uid="uid://5jii5og8jgfs" path="res://asset/Karakter/karakter_santiago/depan.png" id="2_suk6x"]
-[ext_resource type="Texture2D" uid="uid://ddixryuspe1gr" path="res://asset/Karakter/karakter_santiago/karakter_maju.png" id="3_28xfi"]
 [ext_resource type="Texture2D" uid="uid://c4rb0metdswue" path="res://asset/Karakter/karakter_santiago/karakter_kanan.png" id="4_2c7lg"]
 [ext_resource type="Texture2D" uid="uid://br6huw63br2tf" path="res://asset/Karakter/karakter_santiago/karakter_kiri.png" id="5_226lk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_suk6x"]
+atlas = ExtResource("2_pu1kf")
+region = Rect2(164, 0, 164, 164)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_28xfi"]
+atlas = ExtResource("2_pu1kf")
+region = Rect2(328, 0, 164, 164)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2c7lg"]
+atlas = ExtResource("2_pu1kf")
+region = Rect2(492, 0, 164, 164)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_njbbq"]
 atlas = ExtResource("2_suk6x")
@@ -14,25 +26,17 @@ region = Rect2(0, 0, 159, 312)
 atlas = ExtResource("2_suk6x")
 region = Rect2(159, 0, 159, 312)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_226lk"]
+atlas = ExtResource("2_pu1kf")
+region = Rect2(164, 0, 164, 164)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_0t2gg"]
-atlas = ExtResource("3_28xfi")
-region = Rect2(0, 0, 151, 330)
+atlas = ExtResource("2_pu1kf")
+region = Rect2(328, 0, 164, 164)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3a15i"]
-atlas = ExtResource("3_28xfi")
-region = Rect2(151, 0, 151, 330)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0mlf3"]
-atlas = ExtResource("3_28xfi")
-region = Rect2(302, 0, 151, 330)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_amid1"]
-atlas = ExtResource("3_28xfi")
-region = Rect2(453, 0, 151, 330)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mga5d"]
-atlas = ExtResource("3_28xfi")
-region = Rect2(604, 0, 151, 330)
+atlas = ExtResource("2_pu1kf")
+region = Rect2(492, 0, 164, 164)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5c1gk"]
 atlas = ExtResource("4_2c7lg")
@@ -78,6 +82,20 @@ region = Rect2(560, 0, 140, 275)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_suk6x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_28xfi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2c7lg")
+}],
+"loop": 1,
+"name": &"flade",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_njbbq")
 }, {
 "duration": 1.0,
@@ -89,19 +107,13 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_226lk")
+}, {
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_0t2gg")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3a15i")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0mlf3")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_amid1")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mga5d")
 }],
 "loop": 1,
 "name": &"jalan_bawah",
@@ -158,9 +170,8 @@ script = ExtResource("1_pu1kf")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=396470316]
 scale = Vector2(1.5, 1.5)
 sprite_frames = SubResource("SpriteFrames_m0dig")
-animation = &"jalan_kiri"
-frame = 2
-frame_progress = 0.9533778
+animation = &"flade"
+frame_progress = 0.19039361
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1880749887]
 zoom = Vector2(0.5, 0.5)
