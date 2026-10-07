@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://benupt75m8tx7"]
+
+[ext_resource type="Texture2D" uid="uid://bwbwxh1opx6jx" path="res://asset/asset_Melvin/ChatGPT Image 25 Sep 2026, 21.50.26.png" id="1_epcg3"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1vivr"]
+
+[node name="Sprite2D" type="Sprite2D" unique_id=374924484]
+texture = SubResource("ViewportTexture_1vivr")
+
+[node name="Image(3)" type="Sprite2D" parent="." unique_id=149207102]
+position = Vector2(9, -1)
+texture = ExtResource("1_epcg3")
