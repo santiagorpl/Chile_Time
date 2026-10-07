@@ -13,11 +13,6 @@ anchor_bottom = 0.13800001
 offset_right = -60.224007
 offset_bottom = -49.42401
 
-[node name="ShopImage" type="Sprite2D" parent="TokoUI" unique_id=543188742]
-position = Vector2(578, 324)
-scale = Vector2(0.57943684, 0.5794368)
-texture = ExtResource("1_epcg3")
-
 [node name="TutupButton" type="Button" parent="TokoUI" unique_id=1430262609]
 layout_mode = 0
 offset_left = 493.0
@@ -25,20 +20,17 @@ offset_top = 512.0
 offset_right = 664.0
 offset_bottom = 566.0
 
-[node name="NamaItem" type="Label" parent="TokoUI" unique_id=1709282875]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 10.675
-anchor_top = 2.3000002
-anchor_right = 17.95
-anchor_bottom = 3.45
-
 [node name="KangkungButton" type="Button" parent="TokoUI" unique_id=497419627]
 layout_mode = 0
 offset_left = 339.0
 offset_top = 154.0
 offset_right = 482.0
 offset_bottom = 279.0
+
+[node name="Highlight" type="ColorRect" parent="TokoUI/KangkungButton" unique_id=883938821]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 127.0
 
 [node name="WortelButton" type="Button" parent="TokoUI" unique_id=366844581]
 layout_mode = 1
@@ -52,12 +44,26 @@ offset_top = 96.52
 offset_right = 610.0
 offset_bottom = 224.51999
 
+[node name="Highlight" type="ColorRect" parent="TokoUI/WortelButton" unique_id=1086916268]
+layout_mode = 0
+offset_left = 10.0
+offset_right = 140.0
+offset_bottom = 121.0
+
 [node name="KentangButton" type="Button" parent="TokoUI" unique_id=1534423229]
 layout_mode = 0
 offset_left = 668.0
 offset_top = 150.0
 offset_right = 816.0
 offset_bottom = 280.0
+
+[node name="Highlight" type="ColorRect" parent="TokoUI/KentangButton" unique_id=1942227108]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 5.0
+offset_right = 138.0
+offset_bottom = 131.0
+color = Color(0, 0, 0, 1)
 
 [node name="JaheButton" type="Button" parent="TokoUI" unique_id=303954178]
 layout_mode = 0
@@ -66,6 +72,13 @@ offset_top = 310.0
 offset_right = 484.0
 offset_bottom = 445.0
 
+[node name="Highlight" type="ColorRect" parent="TokoUI/JaheButton" unique_id=447784376]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 136.0
+offset_bottom = 128.0
+
 [node name="BawangVIPButton" type="Button" parent="TokoUI" unique_id=187237719]
 layout_mode = 0
 offset_left = 505.0
@@ -73,9 +86,41 @@ offset_top = 311.0
 offset_right = 648.0
 offset_bottom = 442.0
 
+[node name="Highlight" type="ColorRect" parent="TokoUI/BawangVIPButton" unique_id=1628045955]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 134.0
+offset_bottom = 126.0
+
 [node name="SemangkaButton" type="Button" parent="TokoUI" unique_id=1450311650]
 layout_mode = 0
 offset_left = 672.0
 offset_top = 313.0
 offset_right = 816.0
 offset_bottom = 449.0
+
+[node name="Highlight" type="ColorRect" parent="TokoUI/SemangkaButton" unique_id=614026890]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 7.0
+offset_right = 131.0
+offset_bottom = 119.0
+
+[node name="ShopImage" type="Sprite2D" parent="TokoUI" unique_id=543188742]
+position = Vector2(578, 324)
+scale = Vector2(0.57943684, 0.5794368)
+texture = ExtResource("1_epcg3")
+
+[node name="NamaItem" type="Label" parent="TokoUI" unique_id=1709282875]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 10.675
+anchor_top = 2.3000002
+anchor_right = 17.95
+anchor_bottom = 3.45
+offset_left = 73.0
+offset_top = 10.999992
+offset_right = -66.0
+offset_bottom = -7.0
+horizontal_alignment = 1
