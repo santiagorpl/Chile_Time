@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cxhctn4hxx27b"]
 
-[ext_resource type="Texture2D" uid="uid://cbiuud5v8485n" path="res://asset/asset_Santiago/maps/maps_desa.jpg" id="1_tm7nf"]
+[ext_resource type="Texture2D" uid="uid://bbu7q6wg0vkhm" path="res://asset/asset_Melvin/desa.jpg" id="1_305xu"]
 [ext_resource type="Texture2D" uid="uid://b6cjnfb688hh2" path="res://asset/asset_Melvin/695964d8-d9b9-4867-88ea-ff4d509f0f4b-removebg-preview.png" id="2_8v0iv"]
 [ext_resource type="PackedScene" uid="uid://btgmrm4j5jffk" path="res://kode_karakter.tscn" id="3_305xu"]
 
@@ -483,13 +483,14 @@ sources/0 = SubResource("TileSetAtlasSource_305xu")
 
 [node name="tanah" type="TileMapLayer" parent="." unique_id=1573929301]
 
-[node name="MapsDesa" type="Sprite2D" parent="." unique_id=1020869700]
-position = Vector2(605, 466)
-texture = ExtResource("1_tm7nf")
+[node name="Desa" type="Sprite2D" parent="." unique_id=1303553737]
+position = Vector2(1177, 633)
+scale = Vector2(1.9671053, 1.8161931)
+texture = ExtResource("1_305xu")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=639390926]
 tile_map_data = PackedByteArray(0, 0, 25, 0, 16, 0, 0, 0, 10, 0, 10, 0, 0, 0, 25, 0, 17, 0, 0, 0, 10, 0, 11, 0, 0, 0, 26, 0, 16, 0, 0, 0, 11, 0, 10, 0, 0, 0, 26, 0, 17, 0, 0, 0, 11, 0, 11, 0, 0, 0)
 tile_set = SubResource("TileSet_1vivr")
 
 [node name="CharacterBody2D" parent="." unique_id=1651639844 instance=ExtResource("3_305xu")]
-position = Vector2(739, 476)
+position = Vector2(1069, 707)
