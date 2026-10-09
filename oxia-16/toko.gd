@@ -26,6 +26,7 @@ func _ready():
 
 	wortel_button.pressed.connect(func():
 		pilih_item("Benih Wortel")
+		pilih_item("Benih Wortel")
 	)
 
 	kentang_button.pressed.connect(func():
