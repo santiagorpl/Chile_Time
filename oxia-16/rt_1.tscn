@@ -27852,6 +27852,6 @@ tile_map_data = PackedByteArray("AACdAD0AAQABAAkAAACdAD4AAQABAAoAAACeADgAAQACAAQ
 tile_set = SubResource("TileSet_25h05")
 
 [node name="CharacterBody2D" parent="." unique_id=1651639844 instance=ExtResource("2_bm61l")]
-position = Vector2(7705, 1484)
+position = Vector2(4102, 876)
 
 [node name="Toko" parent="." unique_id=1719028278 instance=ExtResource("17_sjs60")]
