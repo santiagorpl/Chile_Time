@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bbu7q6wg0vkhm" path="res://asset/asset_Melvin/desa.jpg" id="1_305xu"]
 [ext_resource type="Texture2D" uid="uid://b6cjnfb688hh2" path="res://asset/asset_Melvin/695964d8-d9b9-4867-88ea-ff4d509f0f4b-removebg-preview.png" id="2_8v0iv"]
-[ext_resource type="PackedScene" uid="uid://btgmrm4j5jffk" path="res://kode_karakter.tscn" id="3_305xu"]
+[ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="3_305xu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_305xu"]
 texture = ExtResource("2_8v0iv")
