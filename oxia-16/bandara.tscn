@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://bjh0cu7ooyhof" path="res://asset/asset_Aril/pagar.png" id="4_5p4vp"]
 [ext_resource type="Texture2D" uid="uid://34u0fw1n1ut0" path="res://asset/asset_Aril/bangunan.png" id="5_uuunr"]
 [ext_resource type="Texture2D" uid="uid://gqa2mqw7srb3" path="res://asset/asset_Aril/garuda.png" id="6_tsj5c"]
+[ext_resource type="Texture2D" uid="uid://bssvd72yctas5" path="res://asset/asset_Aril/menara.png" id="7_tsj5c"]
+[ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="8_8asyy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5p4vp"]
 texture = ExtResource("1_b8c7m")
@@ -8450,8 +8452,8 @@ scale = Vector2(0.460439, 0.6532208)
 texture = ExtResource("3_evpo3")
 
 [node name="Pesawat" type="Sprite2D" parent="." unique_id=1936535829]
-position = Vector2(506.99997, 186.99998)
-scale = Vector2(1.0519286, 0.97013813)
+position = Vector2(592.99994, 230.99997)
+scale = Vector2(1.060017, 1.0509442)
 texture = ExtResource("1_b8c7m")
 
 [node name="Pagar" type="Sprite2D" parent="." unique_id=339359678]
@@ -8498,3 +8500,12 @@ texture = ExtResource("6_tsj5c")
 position = Vector2(1239, 753.00006)
 scale = Vector2(0.23788151, 0.29171094)
 texture = ExtResource("6_tsj5c")
+
+[node name="Menara" type="Sprite2D" parent="." unique_id=2106270764]
+position = Vector2(287, 67.00001)
+scale = Vector2(0.22876793, 0.15849282)
+texture = ExtResource("7_tsj5c")
+
+[node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("8_8asyy")]
+position = Vector2(349, 524)
+scale = Vector2(0.9895093, 1)
