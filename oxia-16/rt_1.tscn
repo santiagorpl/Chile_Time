@@ -27854,4 +27854,4 @@ tile_set = SubResource("TileSet_25h05")
 [node name="Toko" parent="." unique_id=1719028278 instance=ExtResource("17_sjs60")]
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("18_m8c22")]
-position = Vector2(3777, 809)
+position = Vector2(3681, 719)
