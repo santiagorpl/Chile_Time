@@ -25,12 +25,7 @@ func _ready():
 	)
 
 	wortel_button.pressed.connect(func():
-<<<<<<< HEAD
 		pilih_item("Benih Wortel",)
-=======
-		pilih_item("Benih Wortel")
->>>>>>> 03290867a98c4b803794899562c437ae167e51b2
-		pilih_item("Benih Wortel")
 	)
 
 	kentang_button.pressed.connect(func():

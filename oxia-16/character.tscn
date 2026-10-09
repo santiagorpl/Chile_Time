@@ -50,9 +50,12 @@ script = ExtResource("1_wa5vi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=699998783]
 position = Vector2(117, 171)
+scale = Vector2(0.4, 0.4)
 sprite_frames = SubResource("SpriteFrames_1vivr")
-animation = &"jalan_bawah"
+animation = &"diam"
+frame_progress = 0.92415726
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1138703764]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1424707536]
 position = Vector2(109, 153)
+scale = Vector2(0.4, 0.4)
 zoom = Vector2(0.3, 0.3)
