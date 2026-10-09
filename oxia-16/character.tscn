@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://cvckbtlueo4wf" path="res://asset/asset_Santiago/karakter/anak/idle_anak.png" id="1_glpr6"]
 [ext_resource type="Script" uid="uid://dkobrjgx7dbq2" path="res://character.gd" id="1_wa5vi"]
 [ext_resource type="Texture2D" uid="uid://hcy0isnk27yc" path="res://asset/asset_Santiago/karakter/anak/jalan_bawah_anak.png" id="2_pjt0s"]
+[ext_resource type="Texture2D" uid="uid://c030tuc7dgnt4" path="res://asset/asset_Santiago/karakter/anak/kananni.png" id="4_wfnr8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pjt0s"]
 atlas = ExtResource("1_glpr6")
@@ -19,6 +20,22 @@ region = Rect2(0, 0, 353, 353)
 [sub_resource type="AtlasTexture" id="AtlasTexture_px5sl"]
 atlas = ExtResource("2_pjt0s")
 region = Rect2(353, 0, 353, 353)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qfo5"]
+atlas = ExtResource("4_wfnr8")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxww1"]
+atlas = ExtResource("4_wfnr8")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wdpcj"]
+atlas = ExtResource("4_wfnr8")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qi5as"]
+atlas = ExtResource("4_wfnr8")
+region = Rect2(750, 0, 250, 250)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_1vivr"]
 animations = [{
@@ -43,6 +60,23 @@ animations = [{
 "loop": 1,
 "name": &"jalan_bawah",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qfo5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxww1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wdpcj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qi5as")
+}],
+"loop": 1,
+"name": &"jalan_kanan",
+"speed": 4.0
 }]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=2067302777]
@@ -52,10 +86,10 @@ script = ExtResource("1_wa5vi")
 position = Vector2(117, 171)
 scale = Vector2(0.4, 0.4)
 sprite_frames = SubResource("SpriteFrames_1vivr")
-animation = &"diam"
-frame_progress = 0.92415726
+animation = &"jalan_kanan"
+frame_progress = 0.4133943
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1424707536]
 position = Vector2(109, 153)
 scale = Vector2(0.4, 0.4)
-zoom = Vector2(0.3, 0.3)
+zoom = Vector2(0.4, 0.4)
