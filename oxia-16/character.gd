@@ -33,4 +33,4 @@ func _physics_process(_delta):
 				animated_sprite.play("jalan_bawah")
 	else:
 		# MEMPERBAIKI DISINI: Jalankan animasi diam saat tombol dilepas
-		animated_sprite.play("flade") 
+		animated_sprite.play("diam") 
