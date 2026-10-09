@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://chtkrhdyyqj50"]
 
 [ext_resource type="Texture2D" uid="uid://busg34b17um7l" path="res://asset/asset_Santiago/maps/maps.jpg" id="1_qw3j4"]
-[ext_resource type="Texture2D" uid="uid://dyo6ta5kqqafn" path="res://asset/asset_Santiago/runah/warung ikan.png" id="2_mjgvy"]
+[ext_resource type="Texture2D" uid="uid://dyo6ta5kqqafn" path="res://asset/asset_Santiago/rumah/warung ikan.png" id="2_mjgvy"]
 [ext_resource type="PackedScene" uid="uid://btgmrm4j5jffk" path="res://kode_karakter.tscn" id="2_s3hcq"]
 [ext_resource type="Texture2D" uid="uid://c6ph3bds4qgmp" path="res://asset/asset_Santiago/pohon/pohon_ek.png" id="4_duajl"]
 [ext_resource type="Texture2D" uid="uid://b48aswnfyru17" path="res://asset/asset_Santiago/pohon/pohon_kelapa.png" id="5_i888d"]

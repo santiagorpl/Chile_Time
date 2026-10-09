@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bcdaimpkql78h" path="res://asset/asset_Aril/pesawat.png" id="1_b8c7m"]
 [ext_resource type="Texture2D" uid="uid://beqby6vqyde7i" path="res://asset/asset_Santiago/tanah/3.png" id="2_evpo3"]
-[ext_resource type="PackedScene" uid="uid://btgmrm4j5jffk" path="res://kode_karakter.tscn" id="3_evpo3"]
+[ext_resource type="PackedScene" uid="uid://cxhctn4hxx27b" path="res://desa.tscn" id="3_evpo3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5p4vp"]
 texture = ExtResource("1_b8c7m")
