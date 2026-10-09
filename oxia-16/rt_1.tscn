@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://dnbissfdqkl0g" path="res://asset/asset_Santiago/rumah/pagar.png" id="9_jhtby"]
 [ext_resource type="Script" uid="uid://cpmyktrbl3pfl" path="res://area_2d.gd" id="15_orexp"]
 [ext_resource type="PackedScene" uid="uid://benupt75m8tx7" path="res://toko.tscn" id="17_sjs60"]
+[ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="18_m8c22"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_caxu6"]
 texture = ExtResource("1_l21sl")
@@ -27851,3 +27852,6 @@ tile_map_data = PackedByteArray("AACdAD0AAQABAAkAAACdAD4AAQABAAoAAACeADgAAQACAAQ
 tile_set = SubResource("TileSet_25h05")
 
 [node name="Toko" parent="." unique_id=1719028278 instance=ExtResource("17_sjs60")]
+
+[node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("18_m8c22")]
+position = Vector2(3777, 809)
