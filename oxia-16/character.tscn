@@ -51,5 +51,5 @@ script = ExtResource("1_wa5vi")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=699998783]
 position = Vector2(117, 171)
 sprite_frames = SubResource("SpriteFrames_1vivr")
-animation = &"jalan_bawah"
-frame_progress = 0.47649735
+animation = &"diam"
+frame_progress = 0.92415726
