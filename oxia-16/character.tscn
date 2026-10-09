@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://b07hv5kahk4ji"]
+
+[ext_resource type="Texture2D" uid="uid://cvckbtlueo4wf" path="res://asset/asset_Santiago/karakter/anak/idle_anak.png" id="1_glpr6"]
+[ext_resource type="Texture2D" uid="uid://hcy0isnk27yc" path="res://asset/asset_Santiago/karakter/anak/jalan_bawah_anak.png" id="2_pjt0s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pjt0s"]
+atlas = ExtResource("1_glpr6")
+region = Rect2(0, 0, 353, 353)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wa5vi"]
+atlas = ExtResource("1_glpr6")
+region = Rect2(353, 0, 353, 353)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfnr8"]
+atlas = ExtResource("2_pjt0s")
+region = Rect2(0, 0, 353, 353)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_px5sl"]
+atlas = ExtResource("2_pjt0s")
+region = Rect2(353, 0, 353, 353)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1vivr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pjt0s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wa5vi")
+}],
+"loop": 1,
+"name": &"diam",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfnr8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_px5sl")
+}],
+"loop": 1,
+"name": &"jalan_bawah",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2067302777]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=699998783]
+sprite_frames = SubResource("SpriteFrames_1vivr")
+animation = &"jalan_bawah"
+frame_progress = 0.47649735
