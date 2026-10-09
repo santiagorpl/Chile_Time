@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b07hv5kahk4ji"]
 
 [ext_resource type="Texture2D" uid="uid://cvckbtlueo4wf" path="res://asset/asset_Santiago/karakter/anak/idle_anak.png" id="1_glpr6"]
+[ext_resource type="Script" uid="uid://dkobrjgx7dbq2" path="res://character.gd" id="1_wa5vi"]
 [ext_resource type="Texture2D" uid="uid://hcy0isnk27yc" path="res://asset/asset_Santiago/karakter/anak/jalan_bawah_anak.png" id="2_pjt0s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pjt0s"]
@@ -45,6 +46,7 @@ animations = [{
 }]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=2067302777]
+script = ExtResource("1_wa5vi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=699998783]
 sprite_frames = SubResource("SpriteFrames_1vivr")
