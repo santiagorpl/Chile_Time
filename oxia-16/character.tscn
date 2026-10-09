@@ -53,3 +53,7 @@ position = Vector2(117, 171)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 animation = &"diam"
 frame_progress = 0.92415726
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1138703764]
+position = Vector2(109, 153)
+zoom = Vector2(0.3, 0.3)
