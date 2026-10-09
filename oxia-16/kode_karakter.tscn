@@ -134,10 +134,9 @@ scale = Vector2(0.5, 0.5)
 script = ExtResource("1_pu1kf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=396470316]
-scale = Vector2(1.5, 1.5)
+scale = Vector2(0.8, 0.8)
 sprite_frames = SubResource("SpriteFrames_m0dig")
-animation = &"jalan_kanan"
-frame_progress = 0.9789888
+animation = &"jalan_bawah"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1880749887]
 zoom = Vector2(0.5, 0.5)
