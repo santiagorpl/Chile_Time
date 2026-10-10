@@ -9,6 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://bssvd72yctas5" path="res://asset/asset_Aril/menara.png" id="7_tsj5c"]
 [ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="8_8asyy"]
 [ext_resource type="Texture2D" uid="uid://dsywu1s8vvhru" path="res://asset/asset_Aril/pertamina.png" id="9_l52dr"]
+[ext_resource type="Texture2D" uid="uid://t8pl1iolnyjx" path="res://asset/asset_Aril/tiang.png" id="10_7pggo"]
+[ext_resource type="Texture2D" uid="uid://coei3datept56" path="res://asset/asset_Aril/tiangg.png" id="11_yw3ps"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5p4vp"]
 texture = ExtResource("1_b8c7m")
@@ -8519,3 +8521,19 @@ texture = ExtResource("9_l52dr")
 position = Vector2(760, 845)
 scale = Vector2(0.58734655, 0.5269542)
 texture = ExtResource("3_evpo3")
+
+[node name="Tiang" type="Sprite2D" parent="." unique_id=1950809832]
+position = Vector2(1050.0001, 668)
+rotation = 0.0057548285
+scale = Vector2(0.089547314, 0.054104637)
+texture = ExtResource("10_7pggo")
+
+[node name="Tiang2" type="Sprite2D" parent="." unique_id=28602674]
+position = Vector2(909.87506, 669.9167)
+scale = Vector2(0.08707691, 0.050944075)
+texture = ExtResource("10_7pggo")
+
+[node name="Tiangg" type="Sprite2D" parent="." unique_id=482010267]
+position = Vector2(241, 568.00006)
+scale = Vector2(0.28396407, 0.19124351)
+texture = ExtResource("11_yw3ps")
