@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://gqa2mqw7srb3" path="res://asset/asset_Aril/garuda.png" id="6_tsj5c"]
 [ext_resource type="Texture2D" uid="uid://bssvd72yctas5" path="res://asset/asset_Aril/menara.png" id="7_tsj5c"]
 [ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="8_8asyy"]
+[ext_resource type="Texture2D" uid="uid://dsywu1s8vvhru" path="res://asset/asset_Aril/pertamina.png" id="9_l52dr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5p4vp"]
 texture = ExtResource("1_b8c7m")
@@ -8452,12 +8453,12 @@ scale = Vector2(0.460439, 0.6532208)
 texture = ExtResource("3_evpo3")
 
 [node name="Pesawat" type="Sprite2D" parent="." unique_id=1936535829]
-position = Vector2(592.99994, 230.99997)
+position = Vector2(549, 233.00002)
 scale = Vector2(1.060017, 1.0509442)
 texture = ExtResource("1_b8c7m")
 
 [node name="Pagar" type="Sprite2D" parent="." unique_id=339359678]
-position = Vector2(490, 839)
+position = Vector2(499.0001, 751.9999)
 rotation = 0.012549937
 scale = Vector2(0.375973, 0.50170046)
 texture = ExtResource("4_5p4vp")
@@ -8472,7 +8473,7 @@ texture = ExtResource("5_uuunr")
 position = Vector2(716, 665)
 
 [node name="Pagar2" type="Sprite2D" parent="." unique_id=568443400]
-position = Vector2(1070, 843)
+position = Vector2(1074, 752)
 scale = Vector2(0.330327, 0.50261384)
 texture = ExtResource("4_5p4vp")
 
@@ -8499,13 +8500,22 @@ texture = ExtResource("6_tsj5c")
 [node name="Garuda5" type="Sprite2D" parent="." unique_id=1089426930]
 position = Vector2(1239, 753.00006)
 scale = Vector2(0.23788151, 0.29171094)
-texture = ExtResource("6_tsj5c")
 
 [node name="Menara" type="Sprite2D" parent="." unique_id=2106270764]
-position = Vector2(287, 67.00001)
+position = Vector2(283, 85.00001)
 scale = Vector2(0.22876793, 0.15849282)
 texture = ExtResource("7_tsj5c")
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("8_8asyy")]
-position = Vector2(349, 524)
+position = Vector2(357, 440)
 scale = Vector2(0.9895093, 1)
+
+[node name="Pertamina" type="Sprite2D" parent="." unique_id=1119741748]
+position = Vector2(763, 322)
+scale = Vector2(0.1044922, 0.11132813)
+texture = ExtResource("9_l52dr")
+
+[node name="Landasan2" type="Sprite2D" parent="." unique_id=580839157]
+position = Vector2(760, 845)
+scale = Vector2(0.58734655, 0.5269542)
+texture = ExtResource("3_evpo3")
