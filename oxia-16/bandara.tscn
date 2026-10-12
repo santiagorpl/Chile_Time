@@ -8449,6 +8449,10 @@ tile_set = SubResource("TileSet_8vrlf")
 [node name="TileMapLayer" type="TileMapLayer" parent="object" unique_id=418684826]
 tile_set = SubResource("TileSet_v5gy4")
 
+[node name="CharacterBody2D" parent="object" unique_id=2067302777 instance=ExtResource("8_8asyy")]
+position = Vector2(366.00003, 196.00002)
+scale = Vector2(0.9895093, 1)
+
 [node name="Landasan" type="Sprite2D" parent="." unique_id=1807214085]
 position = Vector2(10.000002, 833.00006)
 rotation = 1.5737332
@@ -8508,10 +8512,6 @@ scale = Vector2(0.23788151, 0.29171094)
 position = Vector2(280.99994, 177.00002)
 scale = Vector2(0.43221688, 0.28339314)
 texture = ExtResource("7_tsj5c")
-
-[node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("8_8asyy")]
-position = Vector2(357, 440)
-scale = Vector2(0.9895093, 1)
 
 [node name="Pertamina" type="Sprite2D" parent="." unique_id=1119741748]
 position = Vector2(1328.0001, 629)
