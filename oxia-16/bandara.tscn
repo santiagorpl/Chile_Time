@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://34u0fw1n1ut0" path="res://asset/asset_Aril/bangunan.png" id="5_uuunr"]
 [ext_resource type="Texture2D" uid="uid://gqa2mqw7srb3" path="res://asset/asset_Aril/garuda.png" id="6_tsj5c"]
 [ext_resource type="Texture2D" uid="uid://bssvd72yctas5" path="res://asset/asset_Aril/menara.png" id="7_tsj5c"]
-[ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="8_8asyy"]
+[ext_resource type="PackedScene" uid="uid://bei5lnp7h6b8k" path="res://bandara.tscn" id="8_8asyy"]
 [ext_resource type="Texture2D" uid="uid://dsywu1s8vvhru" path="res://asset/asset_Aril/pertamina.png" id="9_l52dr"]
 [ext_resource type="Texture2D" uid="uid://t8pl1iolnyjx" path="res://asset/asset_Aril/tiang.png" id="10_7pggo"]
 [ext_resource type="Texture2D" uid="uid://coei3datept56" path="res://asset/asset_Aril/tiangg.png" id="11_yw3ps"]
