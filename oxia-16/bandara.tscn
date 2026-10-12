@@ -8581,7 +8581,7 @@ scale = Vector2(0.6582031, 0.5071615)
 texture = ExtResource("14_qo7xg")
 
 [node name="Mbl" type="Sprite2D" parent="." unique_id=1880423658]
-position = Vector2(956.00006, 2530.0002)
+position = Vector2(-242.99994, 2179)
 scale = Vector2(0.87553, 0.727702)
 texture = ExtResource("15_0lnry")
 
