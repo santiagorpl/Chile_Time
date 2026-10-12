@@ -175,6 +175,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_1vivr"]
+radius = 33.24154
+
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=2067302777]
 script = ExtResource("1_wa5vi")
 
@@ -189,3 +192,7 @@ frame_progress = 0.8047125
 position = Vector2(109, 153)
 scale = Vector2(0.4, 0.4)
 zoom = Vector2(0.4, 0.4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1072672001]
+position = Vector2(206, 353)
+shape = SubResource("CircleShape2D_1vivr")
