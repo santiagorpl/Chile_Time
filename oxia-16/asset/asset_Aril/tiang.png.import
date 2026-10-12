@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://duqwreq4ra07x"
-path="res://.godot/imported/jalan_anak.png-8ec515f2ac5728bedc68bd33460cc450.ctex"
+uid="uid://t8pl1iolnyjx"
+path="res://.godot/imported/tiang.png-7641eef4e8506a18e947c67ed5b5765e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/karakter/anak/jalan_anak.png"
-dest_files=["res://.godot/imported/jalan_anak.png-8ec515f2ac5728bedc68bd33460cc450.ctex"]
+source_file="res://asset/asset_Aril/tiang.png"
+dest_files=["res://.godot/imported/tiang.png-7641eef4e8506a18e947c67ed5b5765e.ctex"]
 
 [params]
 

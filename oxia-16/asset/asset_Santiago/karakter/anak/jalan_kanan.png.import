@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hcy0isnk27yc"
-path="res://.godot/imported/jalan_bawah_anak.png-5fbeb843b7897b3584ed9e038dee0446.ctex"
+uid="uid://dkvoaodqq01fk"
+path="res://.godot/imported/jalan_kanan.png-1d7a445f606d1303691449617864923e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/karakter/anak/jalan_bawah_anak.png"
-dest_files=["res://.godot/imported/jalan_bawah_anak.png-5fbeb843b7897b3584ed9e038dee0446.ctex"]
+source_file="res://asset/asset_Santiago/karakter/anak/jalan_kanan.png"
+dest_files=["res://.godot/imported/jalan_kanan.png-1d7a445f606d1303691449617864923e.ctex"]
 
 [params]
 

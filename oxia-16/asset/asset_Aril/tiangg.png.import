@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk6rshpvipdqp"
-path="res://.godot/imported/flade_anak1.png-e144befbc205adc48d2517209523423f.ctex"
+uid="uid://coei3datept56"
+path="res://.godot/imported/tiangg.png-d1c2d00101bc50c900b977f02ad2f938.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/karakter/anak/flade_anak1.png"
-dest_files=["res://.godot/imported/flade_anak1.png-e144befbc205adc48d2517209523423f.ctex"]
+source_file="res://asset/asset_Aril/tiangg.png"
+dest_files=["res://.godot/imported/tiangg.png-d1c2d00101bc50c900b977f02ad2f938.ctex"]
 
 [params]
 
