@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://h62mp84b3vky"
-path="res://.godot/imported/jalan_bawahah.png-21c0d48b4fa4794ee663a329cda8e28a.ctex"
+uid="uid://2odq3p0gume"
+path="res://.godot/imported/jalan_bawahahi.png-429655855f2120071987660cbb9edbb6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/karakter/anak/jalan_bawahah.png"
-dest_files=["res://.godot/imported/jalan_bawahah.png-21c0d48b4fa4794ee663a329cda8e28a.ctex"]
+source_file="res://asset/asset_Santiago/karakter/anak/jalan_bawahahi.png"
+dest_files=["res://.godot/imported/jalan_bawahahi.png-429655855f2120071987660cbb9edbb6.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 [ext_resource type="Script" path="res://kode_karakter.gd" id="1_pu1kf"]
 [ext_resource type="Texture2D" uid="uid://ri2b2xr7yxem" path="res://asset/asset_Santiago/karakter/anak/idle_nie.png" id="2_28xfi"]
 [ext_resource type="Texture2D" uid="uid://5jii5og8jgfs" path="res://asset/Karakter/karakter_santiago/depan.png" id="2_suk6x"]
-[ext_resource type="Texture2D" uid="uid://duqwreq4ra07x" path="res://asset/asset_Santiago/karakter/anak/jalan_anak.png" id="4_suk6x"]
-[ext_resource type="Texture2D" uid="uid://cun7ydp7m0lgm" path="res://asset/asset_Santiago/karakter/anak/kanan_anak.png" id="5_28xfi"]
+[ext_resource type="Texture2D" path="res://asset/asset_Santiago/karakter/anak/jalan_anak.png" id="4_suk6x"]
+[ext_resource type="Texture2D" path="res://asset/asset_Santiago/karakter/anak/kanan_anak.png" id="5_28xfi"]
 [ext_resource type="Texture2D" uid="uid://br6huw63br2tf" path="res://asset/Karakter/karakter_santiago/karakter_kiri.png" id="5_226lk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0mlf3"]

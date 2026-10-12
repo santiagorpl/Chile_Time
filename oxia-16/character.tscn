@@ -2,9 +2,10 @@
 
 [ext_resource type="Script" uid="uid://dkobrjgx7dbq2" path="res://character.gd" id="1_wa5vi"]
 [ext_resource type="Texture2D" uid="uid://ri2b2xr7yxem" path="res://asset/asset_Santiago/karakter/anak/idle_nie.png" id="2_wfnr8"]
-[ext_resource type="Texture2D" uid="uid://h62mp84b3vky" path="res://asset/asset_Santiago/karakter/anak/jalan_bawahah.png" id="3_wfnr8"]
+[ext_resource type="Texture2D" uid="uid://cug3tlb00371o" path="res://asset/asset_Santiago/karakter/anak/jalan_bawah.png" id="3_px5sl"]
 [ext_resource type="Texture2D" uid="uid://dkvoaodqq01fk" path="res://asset/asset_Santiago/karakter/anak/jalan_kanan.png" id="4_wfnr8"]
 [ext_resource type="Texture2D" uid="uid://hnmcua1hachd" path="res://asset/asset_Santiago/karakter/anak/jalan_kiri.png" id="5_px5sl"]
+[ext_resource type="Texture2D" uid="uid://c26smx3m4aavr" path="res://asset/asset_Santiago/karakter/anak/begitu.png" id="6_0qfo5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bwfjh"]
 atlas = ExtResource("2_wfnr8")
@@ -22,20 +23,36 @@ region = Rect2(500, 0, 250, 250)
 atlas = ExtResource("2_wfnr8")
 region = Rect2(750, 0, 250, 250)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_px5sl"]
-atlas = ExtResource("3_wfnr8")
+[sub_resource type="AtlasTexture" id="AtlasTexture_8i6g0"]
+atlas = ExtResource("6_0qfo5")
 region = Rect2(0, 0, 250, 250)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_0qfo5"]
-atlas = ExtResource("3_wfnr8")
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5wlx"]
+atlas = ExtResource("6_0qfo5")
 region = Rect2(250, 0, 250, 250)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_yxww1"]
-atlas = ExtResource("3_wfnr8")
+[sub_resource type="AtlasTexture" id="AtlasTexture_1r1pa"]
+atlas = ExtResource("6_0qfo5")
 region = Rect2(500, 0, 250, 250)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_hvi53"]
+atlas = ExtResource("6_0qfo5")
+region = Rect2(750, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qfo5"]
+atlas = ExtResource("3_px5sl")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxww1"]
+atlas = ExtResource("3_px5sl")
+region = Rect2(250, 0, 250, 250)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_wdpcj"]
-atlas = ExtResource("3_wfnr8")
+atlas = ExtResource("3_px5sl")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3d8aq"]
+atlas = ExtResource("3_px5sl")
 region = Rect2(750, 0, 250, 250)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qi5as"]
@@ -91,8 +108,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_px5sl")
+"texture": SubResource("AtlasTexture_8i6g0")
 }, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5wlx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1r1pa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hvi53")
+}],
+"loop": 1,
+"name": &"jalan_atas",
+"speed": 4.0
+}, {
+"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_0qfo5")
 }, {
@@ -101,6 +132,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wdpcj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3d8aq")
 }],
 "loop": 1,
 "name": &"jalan_bawah",
@@ -146,9 +180,10 @@ script = ExtResource("1_wa5vi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=699998783]
 position = Vector2(212.5, 269)
-scale = Vector2(1.164, 1.1839999)
+scale = Vector2(0.8, 0.816)
 sprite_frames = SubResource("SpriteFrames_1vivr")
-animation = &"jalan_kiri"
+animation = &"jalan_atas"
+frame_progress = 0.8047125
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1424707536]
 position = Vector2(109, 153)
