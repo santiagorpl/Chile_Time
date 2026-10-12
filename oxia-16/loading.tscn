@@ -11,10 +11,19 @@ position = Vector2(0.5, -1.5)
 scale = Vector2(1.1318359, 1.1276224)
 texture = ExtResource("3_1l04a")
 
-[node name="ProgressBar" type="ProgressBar" parent="." unique_id=76304981]
-offset_left = -123.0
-offset_top = 196.0
-offset_right = 123.0
-offset_bottom = 223.0
-
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1415454035]
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=76304981]
+offset_left = -278.0
+offset_top = 196.0
+offset_right = 281.0
+offset_bottom = 243.0
+
+[node name="Label" type="Label" parent="." unique_id=1585257394]
+offset_left = -198.0
+offset_top = -220.0
+offset_right = -75.08
+offset_bottom = -193.65
+scale = Vector2(3.245, 3.245)
+text = "OXIA ASRAMA"
+uppercase = true
