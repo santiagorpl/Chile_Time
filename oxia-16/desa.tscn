@@ -484,8 +484,8 @@ sources/0 = SubResource("TileSetAtlasSource_305xu")
 [node name="tanah" type="TileMapLayer" parent="." unique_id=1573929301]
 
 [node name="Desa" type="Sprite2D" parent="." unique_id=1303553737]
-position = Vector2(1177, 633)
-scale = Vector2(1.9671053, 1.8161931)
+position = Vector2(2042.8438, 1513.4375)
+scale = Vector2(3.4137948, 3.8171875)
 texture = ExtResource("1_305xu")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=639390926]
@@ -493,4 +493,4 @@ tile_map_data = PackedByteArray(0, 0, 25, 0, 16, 0, 0, 0, 10, 0, 10, 0, 0, 0, 25
 tile_set = SubResource("TileSet_1vivr")
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("3_305xu")]
-position = Vector2(917, 611)
+position = Vector2(1761, 1677)
