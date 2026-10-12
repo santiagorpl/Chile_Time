@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk6rshpvipdqp"
-path="res://.godot/imported/flade_anak1.png-e144befbc205adc48d2517209523423f.ctex"
+uid="uid://hnmcua1hachd"
+path="res://.godot/imported/jalan_kiri.png-5c165e890cedef3ea46f1a63e1211919.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/karakter/anak/flade_anak1.png"
-dest_files=["res://.godot/imported/flade_anak1.png-e144befbc205adc48d2517209523423f.ctex"]
+source_file="res://asset/asset_Santiago/karakter/anak/jalan_kiri.png"
+dest_files=["res://.godot/imported/jalan_kiri.png-5c165e890cedef3ea46f1a63e1211919.ctex"]
 
 [params]
 

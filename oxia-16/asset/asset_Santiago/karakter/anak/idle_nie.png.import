@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hcy0isnk27yc"
-path="res://.godot/imported/jalan_bawah_anak.png-5fbeb843b7897b3584ed9e038dee0446.ctex"
+uid="uid://ri2b2xr7yxem"
+path="res://.godot/imported/idle_nie.png-03a988ad6280771f3b42532111fdd6de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/karakter/anak/jalan_bawah_anak.png"
-dest_files=["res://.godot/imported/jalan_bawah_anak.png-5fbeb843b7897b3584ed9e038dee0446.ctex"]
+source_file="res://asset/asset_Santiago/karakter/anak/idle_nie.png"
+dest_files=["res://.godot/imported/idle_nie.png-03a988ad6280771f3b42532111fdd6de.ctex"]
 
 [params]
 
