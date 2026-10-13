@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6ph3bds4qgmp"
-path="res://.godot/imported/pohon_ek.png-957add37b92f50f46cb1c5af4c5d9fcd.ctex"
+path="res://.godot/imported/pohon_ek.png-7398d0ec98e0bb4f42cf482805137262.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/pohon/pohon_ek.png"
-dest_files=["res://.godot/imported/pohon_ek.png-957add37b92f50f46cb1c5af4c5d9fcd.ctex"]
+source_file="res://asset/asset_Santiago/tanaman/pohon_ek.png"
+dest_files=["res://.godot/imported/pohon_ek.png-7398d0ec98e0bb4f42cf482805137262.ctex"]
 
 [params]
 

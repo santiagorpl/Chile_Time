@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cm8igwxqnwbh3"
-path="res://.godot/imported/pohon_pinus_rindang.png-d8178ec32459e13bb9a652a311f39316.ctex"
+uid="uid://ucx1ygrtslpa"
+path="res://.godot/imported/korsi_meja.png-faa9d5224e222ebc682a09a5a366960e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/pohon/pohon_pinus_rindang.png"
-dest_files=["res://.godot/imported/pohon_pinus_rindang.png-d8178ec32459e13bb9a652a311f39316.ctex"]
+source_file="res://asset/asset_Santiago/rumah/korsi_meja.png"
+dest_files=["res://.godot/imported/korsi_meja.png-faa9d5224e222ebc682a09a5a366960e.ctex"]
 
 [params]
 
