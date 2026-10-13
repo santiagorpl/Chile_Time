@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://877a0jrxxkio"
-path="res://.godot/imported/lantai1.png-60aafb675c9f99a4f4e32250c8ffdfd4.ctex"
+uid="uid://d0n44vnc66jqw"
+path="res://.godot/imported/lemari.png-179680e17381a5eec1d92c1d6597f1db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/lantai1.png"
-dest_files=["res://.godot/imported/lantai1.png-60aafb675c9f99a4f4e32250c8ffdfd4.ctex"]
+source_file="res://asset/asset_Santiago/objek/lemari.png"
+dest_files=["res://.godot/imported/lemari.png-179680e17381a5eec1d92c1d6597f1db.ctex"]
 
 [params]
 
