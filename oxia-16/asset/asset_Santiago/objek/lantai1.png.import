@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://877a0jrxxkio"
-path="res://.godot/imported/lantai1.png-60aafb675c9f99a4f4e32250c8ffdfd4.ctex"
+path="res://.godot/imported/lantai1.png-78551d6522224b2b9262e9e8fc20c101.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/lantai1.png"
-dest_files=["res://.godot/imported/lantai1.png-60aafb675c9f99a4f4e32250c8ffdfd4.ctex"]
+source_file="res://asset/asset_Santiago/objek/lantai1.png"
+dest_files=["res://.godot/imported/lantai1.png-78551d6522224b2b9262e9e8fc20c101.ctex"]
 
 [params]
 

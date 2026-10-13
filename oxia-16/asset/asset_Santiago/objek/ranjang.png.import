@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmdlneehuicm"
-path="res://.godot/imported/ranjang.png-7de449538b4d8774703e5745334d774e.ctex"
+path="res://.godot/imported/ranjang.png-e4a1e65bc5606c111b6577a72c0e1ea5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/ranjang.png"
-dest_files=["res://.godot/imported/ranjang.png-7de449538b4d8774703e5745334d774e.ctex"]
+source_file="res://asset/asset_Santiago/objek/ranjang.png"
+dest_files=["res://.godot/imported/ranjang.png-e4a1e65bc5606c111b6577a72c0e1ea5.ctex"]
 
 [params]
 
