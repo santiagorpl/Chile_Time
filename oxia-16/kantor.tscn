@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://db1ok0mgabk53" path="res://asset/asset_Aril/kantor/sofa.png" id="2_2gexq"]
 [ext_resource type="Texture2D" uid="uid://bdq1rfkwirf5s" path="res://asset/asset_Aril/kantor/karpet.png" id="3_q42j3"]
 [ext_resource type="Texture2D" uid="uid://b0s2fd1irrkxm" path="res://asset/asset_Aril/kantor/meja.png" id="4_5o0rj"]
+[ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="5_2gexq"]
 
 [sub_resource type="TileSet" id="TileSet_1vivr"]
 
@@ -40,3 +41,6 @@ texture = ExtResource("3_q42j3")
 position = Vector2(7579, 1231.9999)
 scale = Vector2(1.0852865, 1.1025391)
 texture = ExtResource("4_5o0rj")
+
+[node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("5_2gexq")]
+position = Vector2(3041, 3069)

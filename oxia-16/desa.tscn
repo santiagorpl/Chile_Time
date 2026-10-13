@@ -9,7 +9,6 @@
 [ext_resource type="Texture2D" uid="uid://b48aswnfyru17" path="res://asset/asset_Santiago/pohon/pohon_kelapa.png" id="7_6hadn"]
 [ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="8_dr1pt"]
 [ext_resource type="Texture2D" uid="uid://glsto0mestlv" path="res://asset/asset_Santiago/rumah/rumah_desa.png" id="10_5ok4q"]
-[ext_resource type="Texture2D" uid="uid://b4eaphmws1l32" path="res://asset/asset_Umum/percakapan Ibu_anak/ibu03_finish.png" id="10_6hadn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mv5p4"]
 texture = ExtResource("1_utr4y")
@@ -7797,4 +7796,3 @@ tile_set = SubResource("TileSet_auskg")
 [node name="Ibu03Finish" type="Sprite2D" parent="." unique_id=1697450769]
 position = Vector2(1412, 1281)
 scale = Vector2(2.535156, 2.1870117)
-texture = ExtResource("10_6hadn")
