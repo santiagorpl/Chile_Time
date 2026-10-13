@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://oroxqymiwp66"
-path="res://.godot/imported/buk.png-780e5b75896259bddf6a91ed1994251c.ctex"
+uid="uid://bbkomqfa2ou52"
+path="res://.godot/imported/ibuk01.png-704f2c86a9c09c6bebeb68be729cd43a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Umum/percakapan Ibu_anak/buk.png"
-dest_files=["res://.godot/imported/buk.png-780e5b75896259bddf6a91ed1994251c.ctex"]
+source_file="res://asset/asset_Umum/percakapan Ibu_anak/ibuk01.png"
+dest_files=["res://.godot/imported/ibuk01.png-704f2c86a9c09c6bebeb68be729cd43a.ctex"]
 
 [params]
 

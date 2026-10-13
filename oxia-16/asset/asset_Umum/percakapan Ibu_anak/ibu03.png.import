@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fl0sxpeiufvl"
-path="res://.godot/imported/ibu3.png-f21e1412969d84443b4e0f79fc4e2677.ctex"
+uid="uid://fe76lo2atobx"
+path="res://.godot/imported/ibu03.png-bd13aac1234c125ba7b04b71727cdf32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Umum/percakapan Ibu_anak/ibu3.png"
-dest_files=["res://.godot/imported/ibu3.png-f21e1412969d84443b4e0f79fc4e2677.ctex"]
+source_file="res://asset/asset_Umum/percakapan Ibu_anak/ibu03.png"
+dest_files=["res://.godot/imported/ibu03.png-bd13aac1234c125ba7b04b71727cdf32.ctex"]
 
 [params]
 
