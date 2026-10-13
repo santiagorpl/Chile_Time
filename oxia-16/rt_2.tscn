@@ -35868,7 +35868,7 @@ tile_map_data = PackedByteArray("AACj/VL/AQAEAAIAAACj/VP/AQAEAAMAAACj/VT/AQAEAAQ
 tile_set = SubResource("TileSet_8vrlf")
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("2_pvyah")]
-position = Vector2(521, 371)
+position = Vector2(-12177, -3519)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1295494922]
 position = Vector2(3008, 1343.0001)
