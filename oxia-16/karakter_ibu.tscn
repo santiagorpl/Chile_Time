@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://dfwfii51ik65c"]
+
+[ext_resource type="Texture2D" uid="uid://evohobmll25r" path="res://asset/asset_Umum/karakter_ibu.png" id="1_x547c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kdsei"]
+atlas = ExtResource("1_x547c")
+region = Rect2(0, 0, 288, 288)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i356u"]
+atlas = ExtResource("1_x547c")
+region = Rect2(288, 0, 288, 288)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rv264"]
+atlas = ExtResource("1_x547c")
+region = Rect2(576, 0, 288, 288)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kdsei")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i356u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rv264")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1584090882]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=403649783]
+sprite_frames = SubResource("SpriteFrames_m0dig")
+frame_progress = 0.037158985
