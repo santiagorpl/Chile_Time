@@ -8604,5 +8604,5 @@ scale = Vector2(0.4746094, 0.4399415)
 texture = ExtResource("16_jmxbt")
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("8_8asyy")]
-position = Vector2(2190.9998, 1259.0001)
+position = Vector2(2450.0002, 1656)
 scale = Vector2(0.9895093, 1)
