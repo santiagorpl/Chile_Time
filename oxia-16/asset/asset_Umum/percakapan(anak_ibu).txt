@@ -1,4 +1,4 @@
-﻿### FRAME 1 — IBU
+### FRAME 1 — IBU
 
 **Situasi:** Ibu melihat anaknya yang sudah siap berangkat. Wajahnya bangga, tetapi masih ada sedikit senyum haru.
 
@@ -55,4 +55,3 @@
 **Anak:**
 
 > "Aku janji, Bu. Sejauh apa pun aku pergi, rumah ini tetap tempat aku pulang."
-
