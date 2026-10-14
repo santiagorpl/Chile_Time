@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cukduglfspqiv"
-path="res://.godot/imported/image-removebg-preview.png-6d43bbef3b5e7925ad04eccf7a256098.ctex"
+uid="uid://bfjvp8qwkl605"
+path="res://.godot/imported/rak3.png-b3bfc505798d71c11e9b83b530470e80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/image-removebg-preview.png"
-dest_files=["res://.godot/imported/image-removebg-preview.png-6d43bbef3b5e7925ad04eccf7a256098.ctex"]
+source_file="res://asset/asset_Aril/kantor/rak3.png"
+dest_files=["res://.godot/imported/rak3.png-b3bfc505798d71c11e9b83b530470e80.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b48aswnfyru17"
-path="res://.godot/imported/pohon_kelapa.png-228fb92df9ab9d7567e0d30c56b8d34a.ctex"
+uid="uid://877a0jrxxkio"
+path="res://.godot/imported/lantai1.png-78551d6522224b2b9262e9e8fc20c101.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/pohon/pohon_kelapa.png"
-dest_files=["res://.godot/imported/pohon_kelapa.png-228fb92df9ab9d7567e0d30c56b8d34a.ctex"]
+source_file="res://asset/asset_Santiago/objek/lantai1.png"
+dest_files=["res://.godot/imported/lantai1.png-78551d6522224b2b9262e9e8fc20c101.ctex"]
 
 [params]
 

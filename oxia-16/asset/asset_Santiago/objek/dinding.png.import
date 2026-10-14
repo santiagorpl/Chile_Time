@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvdyr15nrx50c"
-path="res://.godot/imported/pintu kaca.png-b7496b8951a0ddbc715d793a40b57653.ctex"
+uid="uid://dphovju82esjk"
+path="res://.godot/imported/dinding.png-36d39b192b3a84ecb503501359ef2fdc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/pintu kaca.png"
-dest_files=["res://.godot/imported/pintu kaca.png-b7496b8951a0ddbc715d793a40b57653.ctex"]
+source_file="res://asset/asset_Santiago/objek/dinding.png"
+dest_files=["res://.godot/imported/dinding.png-36d39b192b3a84ecb503501359ef2fdc.ctex"]
 
 [params]
 

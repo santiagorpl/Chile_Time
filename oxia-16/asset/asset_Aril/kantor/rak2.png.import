@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://877a0jrxxkio"
-path="res://.godot/imported/lantai1.png-60aafb675c9f99a4f4e32250c8ffdfd4.ctex"
+uid="uid://b60d6i375auum"
+path="res://.godot/imported/rak2.png-52f8026b38dd1098ae09fdda33ac6838.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/lantai1.png"
-dest_files=["res://.godot/imported/lantai1.png-60aafb675c9f99a4f4e32250c8ffdfd4.ctex"]
+source_file="res://asset/asset_Aril/kantor/rak2.png"
+dest_files=["res://.godot/imported/rak2.png-52f8026b38dd1098ae09fdda33ac6838.ctex"]
 
 [params]
 

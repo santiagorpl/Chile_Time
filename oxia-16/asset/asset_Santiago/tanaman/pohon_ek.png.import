@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dphovju82esjk"
-path="res://.godot/imported/dinding.png-b0f3499032ea721c20f37fffe849cf80.ctex"
+uid="uid://c6ph3bds4qgmp"
+path="res://.godot/imported/pohon_ek.png-7398d0ec98e0bb4f42cf482805137262.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/dinding.png"
-dest_files=["res://.godot/imported/dinding.png-b0f3499032ea721c20f37fffe849cf80.ctex"]
+source_file="res://asset/asset_Santiago/tanaman/pohon_ek.png"
+dest_files=["res://.godot/imported/pohon_ek.png-7398d0ec98e0bb4f42cf482805137262.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmdlneehuicm"
-path="res://.godot/imported/ranjang.png-7de449538b4d8774703e5745334d774e.ctex"
+uid="uid://d0n44vnc66jqw"
+path="res://.godot/imported/lemari.png-179680e17381a5eec1d92c1d6597f1db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/ranjang.png"
-dest_files=["res://.godot/imported/ranjang.png-7de449538b4d8774703e5745334d774e.ctex"]
+source_file="res://asset/asset_Santiago/objek/lemari.png"
+dest_files=["res://.godot/imported/lemari.png-179680e17381a5eec1d92c1d6597f1db.ctex"]
 
 [params]
 

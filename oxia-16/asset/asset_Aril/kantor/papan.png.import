@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0n44vnc66jqw"
-path="res://.godot/imported/lemari.png-69596f8e4fd7b42abfb231f1197433d9.ctex"
+uid="uid://c8154adqchp3r"
+path="res://.godot/imported/papan.png-49e21e57ac4d352381bbd3471afdee42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Santiago/lemari.png"
-dest_files=["res://.godot/imported/lemari.png-69596f8e4fd7b42abfb231f1197433d9.ctex"]
+source_file="res://asset/asset_Aril/kantor/papan.png"
+dest_files=["res://.godot/imported/papan.png-49e21e57ac4d352381bbd3471afdee42.ctex"]
 
 [params]
 
