@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://d0vf2q2ufdtjy" path="res://asset/asset_Umum/01.png" id="5_gy6ng"]
 [ext_resource type="Texture2D" uid="uid://dpq85ebsdeeuk" path="res://asset/asset_Umum/Lembaran Sprite Kota Pixel Art.png" id="6_pqobx"]
 [ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/tanaman/pohon_pinus_rindang.png" id="6_vo32f"]
+[ext_resource type="Script" uid="uid://qs0k5w8t33ae" path="res://masukkantor.gd" id="9_sckrf"]
 [ext_resource type="Texture2D" uid="uid://cg0tos7h0ypn5" path="res://asset/asset_Umum/Lembar Sprite Pixel Art Kota Indonesia.png" id="10_pqobx"]
 [ext_resource type="Texture2D" uid="uid://65foq2qsimwa" path="res://Koleksi Sprite Kota Modern Isometrik.png" id="10_vo32f"]
 [ext_resource type="Texture2D" uid="uid://ts47lcd542mn" path="res://asset/asset_Umum/cafe buk Ana.png" id="12_tqrpt"]
@@ -61948,6 +61949,9 @@ texture = ExtResource("6_pqobx")
 sources/0 = SubResource("TileSetAtlasSource_7gh4c")
 sources/1 = SubResource("TileSetAtlasSource_oxrca")
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_1vivr"]
+radius = 259.34174
+
 [node name="Node2D" type="Node2D" unique_id=1893008893]
 position = Vector2(4798, 2855)
 
@@ -62025,5 +62029,14 @@ tile_set = SubResource("TileSet_u7cuq")
 scale = Vector2(3.78, 3.78)
 tile_map_data = PackedByteArray("AADR/wkAAQACACcAAADR/woAAQACACgAAADR/wsAAQACACkAAADR/wwAAQACACoAAADR/w0AAQACACsAAADR/w4AAQACACwAAADS/wkAAQADACcAAADS/woAAQADACgAAADS/wsAAQADACkAAADS/wwAAQADACoAAADS/w0AAQADACsAAADS/w4AAQADACwAAADT/wkAAQAEACcAAADT/woAAQAEACgAAADT/wsAAQAEACkAAADT/wwAAQAEACoAAADT/w0AAQAEACsAAADT/w4AAQAEACwAAAA=")
 tile_set = SubResource("TileSet_d2pp6")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=83425458]
+position = Vector2(3008, 1343)
+scale = Vector2(0.31006, 0.31006)
+script = ExtResource("9_sckrf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2066360285]
+position = Vector2(-22685.932, -3467.0706)
+shape = SubResource("CircleShape2D_1vivr")
 
 [editable path="CharacterBody2D"]
