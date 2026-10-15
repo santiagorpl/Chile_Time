@@ -15,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://dkdmopn2wmep7" path="res://Gadis Pixel Membawa Keranjang Sayur.png" id="14_10qg6"]
 [ext_resource type="Texture2D" uid="uid://fe76lo2atobx" path="res://asset/asset_Umum/percakapan Ibu_anak/ibu03.png" id="14_wuddr"]
 [ext_resource type="Texture2D" uid="uid://dn5eysvgnhf3q" path="res://asset/asset_Umum/percakapan Ibu_anak/anak_ibu01.png" id="15_wuddr"]
+[ext_resource type="AudioStream" uid="uid://c2rmpynobx4ak" path="res://asset/asset_Umum/audio/suara_anak_ibu1.mp3" id="16_dm5t4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mv5p4"]
 texture = ExtResource("1_utr4y")
@@ -7774,7 +7775,7 @@ sources/0 = SubResource("TileSetAtlasSource_5ok4q")
 resource_name = "Animasi Desa"
 
 [sub_resource type="Animation" id="Animation_dm5t4"]
-length = 5.233333
+length = 7.4
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -7879,6 +7880,18 @@ tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
 "times": PackedFloat32Array(0, 4.77),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("cakap 2/Sprite2D/SuaraAnakIbu1:playing")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 3.3666666),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
@@ -10547,7 +10560,6 @@ position = Vector2(1724, 1539)
 zoom = Vector2(0.395, 0.395)
 
 [node name="diam" type="CharacterBody2D" parent="." unique_id=2130717114]
-visible = false
 position = Vector2(1437, 1305)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="diam" unique_id=923380415]
@@ -10613,5 +10625,8 @@ position = Vector2(1585, 1928)
 position = Vector2(83, -274)
 scale = Vector2(2.2978516, 2.2978516)
 texture = ExtResource("15_wuddr")
+
+[node name="SuaraAnakIbu1" type="AudioStreamPlayer" parent="cakap 2/Sprite2D" unique_id=575169458]
+stream = ExtResource("16_dm5t4")
 
 [editable path="ibu"]
