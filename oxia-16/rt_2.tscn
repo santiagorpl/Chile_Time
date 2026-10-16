@@ -14,6 +14,8 @@
 [ext_resource type="Texture2D" uid="uid://65foq2qsimwa" path="res://Koleksi Sprite Kota Modern Isometrik.png" id="10_vo32f"]
 [ext_resource type="Texture2D" uid="uid://ts47lcd542mn" path="res://asset/asset_Umum/cafe buk Ana.png" id="12_tqrpt"]
 [ext_resource type="Texture2D" uid="uid://cfwvmjey01enw" path="res://asset/asset_Umum/buk ana cofe.png" id="13_sckrf"]
+[ext_resource type="PackedScene" uid="uid://bjw1ari0gkqs" path="res://kantor.tscn" id="15_oxwta"]
+[ext_resource type="PackedScene" uid="uid://kugg2qt0sqia" path="res://portal.tscn" id="16_wn37m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctcw4"]
 texture = ExtResource("2_8e4sk")
@@ -62011,8 +62013,8 @@ position = Vector2(-1010, 508)
 
 [node name="Camera2D" parent="CharacterBody2D" index="1" unique_id=1424707536]
 limit_left = 0
-limit_top = 0
-limit_right = 4200
+limit_top = -3397
+limit_right = 12172
 limit_bottom = 5000
 
 [node name="rumah makan buk ana" type="TileMapLayer" parent="." unique_id=215778188]
@@ -62039,4 +62041,15 @@ script = ExtResource("9_sckrf")
 position = Vector2(-22685.932, -3467.0706)
 shape = SubResource("CircleShape2D_1vivr")
 
+[node name="Dunia" parent="." unique_id=1816144098 instance=ExtResource("15_oxwta")]
+position = Vector2(1768, -5328)
+
+[node name="Area2D2" parent="." unique_id=1249990832 instance=ExtResource("16_wn37m")]
+position = Vector2(-3979, 424)
+scale = Vector2(8.055, 8.055)
+
+[node name="DestinationPoint" parent="Area2D2" index="2" unique_id=1463864298]
+position = Vector2(872.9981, -604.22095)
+
 [editable path="CharacterBody2D"]
+[editable path="Area2D2"]

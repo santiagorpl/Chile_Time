@@ -34483,6 +34483,7 @@ scale = Vector2(0.26953125, 0.26953125)
 texture = ExtResource("9_0wusd")
 
 [node name="CharacterBody2D2" parent="." unique_id=1689627958 instance=ExtResource("5_2gexq")]
+visible = false
 position = Vector2(400, 261)
 
 [node name="AnimatedSprite2D" parent="CharacterBody2D2" index="0" unique_id=699998783]
