@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4bv55qpfjdcm"
-path="res://.godot/imported/bapak.png-6db62579652da73bd0ab72c1b494a585.ctex"
+uid="uid://b6v6y4raqnfcy"
+path="res://.godot/imported/anak3.png-7c05d2f42e3b2d608bdc9137af0b98e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Umum/percakapan bapak_anak/bapak.png"
-dest_files=["res://.godot/imported/bapak.png-6db62579652da73bd0ab72c1b494a585.ctex"]
+source_file="res://asset/asset_Umum/percakapan bapak_anak/anak3.png"
+dest_files=["res://.godot/imported/anak3.png-7c05d2f42e3b2d608bdc9137af0b98e3.ctex"]
 
 [params]
 
