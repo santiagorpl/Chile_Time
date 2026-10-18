@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://w233of8idb3v"]
+
+[ext_resource type="Texture2D" uid="uid://snj002qfxuyg" path="res://asset/asset_Umum/download (1).png" id="1_86rd1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_56qji"]
+atlas = ExtResource("1_86rd1")
+region = Rect2(0, 0, 433, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kc2n"]
+atlas = ExtResource("1_86rd1")
+region = Rect2(433, 0, 433, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ififo"]
+atlas = ExtResource("1_86rd1")
+region = Rect2(866, 0, 433, 432)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_56qji")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1kc2n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ififo")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="bapak" type="CharacterBody2D" unique_id=418857966]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=95900055]
+sprite_frames = SubResource("SpriteFrames_m0dig")
+animation = &"idle"
+frame_progress = 0.17247945

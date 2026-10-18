@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://cxhctn4hxx27b"]
 
+[ext_resource type="AudioStream" uid="uid://b7d7vp76gb8gu" path="res://asset/asset_Umum/audio/jalan_sound.mp3" id="1_mnmwi"]
 [ext_resource type="Texture2D" uid="uid://beqby6vqyde7i" path="res://asset/asset_Santiago/tanah/3.png" id="1_utr4y"]
 [ext_resource type="Texture2D" uid="uid://b6cjnfb688hh2" path="res://asset/asset_Melvin/695964d8-d9b9-4867-88ea-ff4d509f0f4b-removebg-preview.png" id="2_8v0iv"]
 [ext_resource type="Texture2D" uid="uid://bc66cov7pj8b8" path="res://asset/asset_Santiago/tanah/tanahku.png" id="2_oed8f"]
@@ -7803,10 +7804,10 @@ tracks/1/path = NodePath("diam:visible")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0.6333333, 1.7666667),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 0.6333333, 1.7666667),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [true, false]
+"values": [false, true, false]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -7827,7 +7828,7 @@ tracks/3/path = NodePath("maju:visible")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
-"times": PackedFloat32Array(0.6333333, 1.7333333, 2.67),
+"times": PackedFloat32Array(0.6666667, 1.7333333, 2.67),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -7839,10 +7840,10 @@ tracks/4/path = NodePath("kiri:visible")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.6333333, 2.67),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(-0.23333333, 0, 0.6437504, 2.67),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [true, false, true]
+"values": [false, true, false, true]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -7947,7 +7948,7 @@ tracks/13/path = NodePath("cakap 4:visible")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/keys = {
-"times": PackedFloat32Array(0, 21, 24.6),
+"times": PackedFloat32Array(0, 21, 24.633333),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -7971,7 +7972,7 @@ tracks/15/path = NodePath("cakap 5:visible")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = {
-"times": PackedFloat32Array(0, 24.533333, 28.809076),
+"times": PackedFloat32Array(0, 24.6333, 28.809076),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -7995,7 +7996,7 @@ tracks/17/path = NodePath("cakap 6:visible")
 tracks/17/interp = 1
 tracks/17/loop_wrap = true
 tracks/17/keys = {
-"times": PackedFloat32Array(0, 28.9, 32.433334),
+"times": PackedFloat32Array(0, 28.8091, 32.433334),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -8011,6 +8012,18 @@ tracks/18/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("JalanSound:playing")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0.4304489, 2.4512036),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_p6abx"]
@@ -10648,6 +10661,9 @@ data = PackedByteArray("SUQzBAAAAAAAIlRTU0UAAAAOAAADTGF2ZjYyLjMuMTAwAAAAAAAAAAAA
 
 [node name="dunia" type="Node2D" unique_id=123779742]
 position = Vector2(0, 1)
+
+[node name="JalanSound" type="AudioStreamPlayer" parent="." unique_id=1844716604]
+stream = ExtResource("1_mnmwi")
 
 [node name="AudioGame" type="AudioStreamPlayer" parent="." unique_id=549838969]
 stream = ExtResource("24_e3084")
