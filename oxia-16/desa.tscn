@@ -13,9 +13,16 @@
 [ext_resource type="Texture2D" uid="uid://ri2b2xr7yxem" path="res://asset/asset_Santiago/karakter/anak/idle_nie.png" id="12_10qg6"]
 [ext_resource type="PackedScene" uid="uid://dfwfii51ik65c" path="res://karakter_ibu.tscn" id="13_gjg6t"]
 [ext_resource type="Texture2D" uid="uid://dkdmopn2wmep7" path="res://Gadis Pixel Membawa Keranjang Sayur.png" id="14_10qg6"]
+[ext_resource type="Texture2D" uid="uid://bbkomqfa2ou52" path="res://asset/asset_Umum/percakapan Ibu_anak/ibuk01.png" id="14_p6abx"]
 [ext_resource type="Texture2D" uid="uid://fe76lo2atobx" path="res://asset/asset_Umum/percakapan Ibu_anak/ibu03.png" id="14_wuddr"]
+[ext_resource type="AudioStream" uid="uid://c7euo1oyer5bf" path="res://asset/asset_Umum/audio/ibu/Ibu_01.mp3" id="15_kwdoj"]
 [ext_resource type="Texture2D" uid="uid://dn5eysvgnhf3q" path="res://asset/asset_Umum/percakapan Ibu_anak/anak_ibu01.png" id="15_wuddr"]
-[ext_resource type="AudioStream" uid="uid://c2rmpynobx4ak" path="res://asset/asset_Umum/audio/suara_anak_ibu1.mp3" id="16_dm5t4"]
+[ext_resource type="AudioStream" uid="uid://c4vgwaf1t6l6d" path="res://asset/asset_Umum/audio/anak_Ibu/anak_ibu_01.mp3" id="17_xd3tj"]
+[ext_resource type="Texture2D" uid="uid://b0qsphnwxs05k" path="res://asset/asset_Umum/percakapan Ibu_anak/ibuk02.png" id="18_xd3tj"]
+[ext_resource type="AudioStream" uid="uid://cpsrf57nig81h" path="res://asset/asset_Umum/audio/ibu/ibu_02.mp3" id="19_hqxdk"]
+[ext_resource type="Texture2D" uid="uid://b8k6horr0xeh4" path="res://asset/asset_Umum/percakapan Ibu_anak/anak_ibu02.png" id="20_u5pd4"]
+[ext_resource type="AudioStream" uid="uid://ceke65mdv1kti" path="res://asset/asset_Umum/audio/anak_Ibu/anak_ibu_02.mp3" id="21_0i1v3"]
+[ext_resource type="AudioStream" uid="uid://dmoqh3ho1kmw0" path="res://asset/asset_Umum/audio/ibu/ibu_03.mp3" id="23_7wcsk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mv5p4"]
 texture = ExtResource("1_utr4y")
@@ -7775,7 +7782,7 @@ sources/0 = SubResource("TileSetAtlasSource_5ok4q")
 resource_name = "Animasi Desa"
 
 [sub_resource type="Animation" id="Animation_dm5t4"]
-length = 7.4
+length = 25.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -7867,7 +7874,7 @@ tracks/7/path = NodePath("cakap 1:visible")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
-"times": PackedFloat32Array(0, 2.9333334, 4.77),
+"times": PackedFloat32Array(0, 2.9333334, 9.1),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -7879,22 +7886,106 @@ tracks/8/path = NodePath("cakap 2:visible")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
-"times": PackedFloat32Array(0, 4.77),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 9.066667, 14.033334),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [false, true]
+"values": [false, true, false]
 }
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("cakap 2/Sprite2D/SuaraAnakIbu1:playing")
+tracks/9/path = NodePath("cakap 1/Ibu01:playing")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
-"times": PackedFloat32Array(0, 3.3666666),
+"times": PackedFloat32Array(2.9424226, 8.966666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("cakap 2/AnakIbu01:playing")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(9),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("cakap 3/AnakIbu01:playing")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(13.966666),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("cakap 3:visible")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 14.033334, 21.166666),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("cakap 4:visible")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 21.166666, 25.366667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("cakap 4/AnakIbu01:playing")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(21.166666),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("cakap 5:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 25.366667),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("cakap 5/ibuk3:playing")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(25.366667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_p6abx"]
@@ -10560,6 +10651,7 @@ position = Vector2(1724, 1539)
 zoom = Vector2(0.395, 0.395)
 
 [node name="diam" type="CharacterBody2D" parent="." unique_id=2130717114]
+visible = false
 position = Vector2(1437, 1305)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="diam" unique_id=923380415]
@@ -10613,9 +10705,12 @@ visible = false
 position = Vector2(1585, 1928)
 
 [node name="Sprite2D" type="Sprite2D" parent="cakap 1" unique_id=1369016447]
-position = Vector2(83, -274)
+position = Vector2(116, -725)
 scale = Vector2(2.2978516, 2.2978516)
-texture = ExtResource("14_wuddr")
+texture = ExtResource("14_p6abx")
+
+[node name="Ibu01" type="AudioStreamPlayer" parent="cakap 1" unique_id=2119229550]
+stream = ExtResource("15_kwdoj")
 
 [node name="cakap 2" type="CharacterBody2D" parent="." unique_id=774040448]
 visible = false
@@ -10626,7 +10721,45 @@ position = Vector2(83, -274)
 scale = Vector2(2.2978516, 2.2978516)
 texture = ExtResource("15_wuddr")
 
-[node name="SuaraAnakIbu1" type="AudioStreamPlayer" parent="cakap 2/Sprite2D" unique_id=575169458]
-stream = ExtResource("16_dm5t4")
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="cakap 2" unique_id=374601705]
+stream = ExtResource("17_xd3tj")
+volume_db = 11.429
+
+[node name="cakap 3" type="CharacterBody2D" parent="." unique_id=97934581]
+visible = false
+position = Vector2(1585, 1927)
+
+[node name="Sprite2D" type="Sprite2D" parent="cakap 3" unique_id=190292533]
+position = Vector2(83, -274)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("18_xd3tj")
+
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="cakap 3" unique_id=878583554]
+stream = ExtResource("19_hqxdk")
+
+[node name="cakap 4" type="CharacterBody2D" parent="." unique_id=981435290]
+visible = false
+position = Vector2(3170, 3856)
+
+[node name="Sprite2D" type="Sprite2D" parent="cakap 4" unique_id=586180195]
+position = Vector2(-1501, -2205)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("20_u5pd4")
+
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="cakap 4" unique_id=1358691104]
+stream = ExtResource("21_0i1v3")
+volume_db = 11.429
+
+[node name="cakap 5" type="CharacterBody2D" parent="." unique_id=458656986]
+visible = false
+position = Vector2(3170, 3856)
+
+[node name="Sprite2D" type="Sprite2D" parent="cakap 5" unique_id=312938596]
+position = Vector2(-1501, -2205)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("14_wuddr")
+
+[node name="ibuk3" type="AudioStreamPlayer" parent="cakap 5" unique_id=2051445794]
+stream = ExtResource("23_7wcsk")
 
 [editable path="ibu"]
