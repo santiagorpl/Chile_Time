@@ -20171,7 +20171,7 @@ tile_map_data = PackedByteArray("AAC2AC4AAAAYACQAAAC2AC8AAAAYACUAAAC2ADAAAAAYACY
 tile_set = SubResource("TileSet_auskg")
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("3_nyi6e")]
-position = Vector2(302, 1087)
+position = Vector2(139, 561)
 
 [node name="meja" type="TileMapLayer" parent="." unique_id=1708169793]
 scale = Vector2(0.3, 0.3)
