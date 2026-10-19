@@ -70,7 +70,7 @@ script = ExtResource("5_glbon")
 
 [node name="info_pengembang" type="Button" parent="TextureRect" unique_id=340587437]
 layout_mode = 0
-offset_left = 151.3301
+offset_left = 151.33011
 offset_top = -25.10801
 offset_right = 730.3301
 offset_bottom = 405.892
