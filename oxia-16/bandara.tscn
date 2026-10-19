@@ -8439,9 +8439,6 @@ texture = ExtResource("3_evpo3")
 [sub_resource type="TileSet" id="TileSet_v5gy4"]
 sources/0 = SubResource("TileSetAtlasSource_k44tm")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vivr"]
-size = Vector2(4.2768, 80.673515)
-
 [node name="Node2D" type="Node2D" unique_id=807383674]
 
 [node name="tanah" type="TileMapLayer" parent="." unique_id=1938607998]
@@ -8469,18 +8466,6 @@ scale = Vector2(5.2362003, 7.697695)
 
 [node name="Sprite2D" type="Sprite2D" parent="Pesawat" unique_id=678437388]
 texture = ExtResource("1_b8c7m")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Pesawat" unique_id=1284320786]
-position = Vector2(-190.59619, 48.06635)
-rotation = -0.47123882
-scale = Vector2(0.9999999, 0.99999994)
-shape = SubResource("RectangleShape2D_1vivr")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Pesawat" unique_id=397128137]
-position = Vector2(-158.23438, 42.731537)
-rotation = -0.47123882
-scale = Vector2(0.9999999, 0.99999994)
-shape = SubResource("RectangleShape2D_1vivr")
 
 [node name="Pagar" type="Sprite2D" parent="." unique_id=339359678]
 position = Vector2(2063.7502, 4678.583)
@@ -8594,7 +8579,7 @@ scale = Vector2(0.6582031, 0.5071615)
 texture = ExtResource("14_qo7xg")
 
 [node name="Mbl" type="Sprite2D" parent="." unique_id=1880423658]
-position = Vector2(251, 1978.0002)
+position = Vector2(-1579, 2065)
 scale = Vector2(0.87553, 0.727702)
 texture = ExtResource("15_0lnry")
 
@@ -8604,5 +8589,10 @@ scale = Vector2(0.4746094, 0.4399415)
 texture = ExtResource("16_jmxbt")
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("8_8asyy")]
-position = Vector2(2450.0002, 1656)
+position = Vector2(2433, 1592)
 scale = Vector2(0.9895093, 1)
+
+[node name="CollisionShape2D" parent="CharacterBody2D" index="2" unique_id=1072672001]
+position = Vector2(2.021256, 86)
+
+[editable path="CharacterBody2D"]
