@@ -36,4 +36,4 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=95900055]
 sprite_frames = SubResource("SpriteFrames_m0dig")
 animation = &"idle"
-frame_progress = 0.17247945
+autoplay = "idle"
