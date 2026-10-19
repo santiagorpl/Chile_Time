@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dk8hex35yjoi1"]
+
+[ext_resource type="Script" uid="uid://dqkoj8ekbu2me" path="res://vidio_pesawat.gd" id="1_cxkjq"]
+[ext_resource type="VideoStream" uid="uid://b7p87ud5wlwkk" path="res://asset/asset_Umum/main menu/and.ogv" id="1_wq1v1"]
+[ext_resource type="Script" uid="uid://bobheaff3ukeo" path="res://bacground_hitam.gd" id="2_367qq"]
+[ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="4_8kj1r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m0dig"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="dunia" type="Control" unique_id=906041690]
+layout_mode = 3
+anchors_preset = 0
+scale = Vector2(-0.5506941, 0.58507013)
+script = ExtResource("1_cxkjq")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1664947440]
+scale = Vector2(1.5463555, -0.96493536)
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=863848394]
+layout_mode = 0
+offset_left = 1045.9525
+offset_top = -553.7798
+offset_right = 1085.9525
+offset_bottom = -513.7798
+scale = Vector2(-1.0911411, 1.0923798)
+stream = ExtResource("1_wq1v1")
+autoplay = true
+
+[node name="Label" type="Label" parent="." unique_id=1152005652]
+layout_mode = 0
+offset_left = 1069.5593
+offset_top = -575.9993
+offset_right = 1110.3085
+offset_bottom = -552.4434
+scale = Vector2(-52.00466, 48.179314)
+theme_override_styles/normal = SubResource("StyleBoxFlat_m0dig")
+script = ExtResource("2_367qq")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1481344748]
+stream = ExtResource("4_8kj1r")
+autoplay = true
