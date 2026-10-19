@@ -186,6 +186,7 @@ theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.2117
 theme_override_styles/normal = SubResource("StyleBoxFlat_ii8jt")
 
 [node name="info pengembang00" type="Sprite2D" parent="." unique_id=1731735980]
+visible = false
 position = Vector2(-1.5258789e-05, 0)
 scale = Vector2(1.4999999, 1.5)
 texture = ExtResource("8_dy7ct")
