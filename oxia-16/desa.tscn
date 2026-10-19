@@ -8203,7 +8203,7 @@ tracks/26/path = NodePath("bapak 3:visible")
 tracks/26/interp = 1
 tracks/26/loop_wrap = true
 tracks/26/keys = {
-"times": PackedFloat32Array(0, 42.261425, 47.80339),
+"times": PackedFloat32Array(0, 42.261425, 47.5),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -8227,7 +8227,7 @@ tracks/28/path = NodePath("bapak 4:visible")
 tracks/28/interp = 1
 tracks/28/loop_wrap = true
 tracks/28/keys = {
-"times": PackedFloat32Array(0, 47.80339, 51.201),
+"times": PackedFloat32Array(0, 47.5, 50.89761),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -8239,7 +8239,7 @@ tracks/29/path = NodePath("bapak 4/AnakIbu01:playing")
 tracks/29/interp = 1
 tracks/29/loop_wrap = true
 tracks/29/keys = {
-"times": PackedFloat32Array(46.7),
+"times": PackedFloat32Array(46.39661),
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
@@ -8251,7 +8251,7 @@ tracks/30/path = NodePath("bapak 5:visible")
 tracks/30/interp = 1
 tracks/30/loop_wrap = true
 tracks/30/keys = {
-"times": PackedFloat32Array(0, 51.201, 54.34668),
+"times": PackedFloat32Array(0, 50.89761, 54.04329),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [false, true, false]
@@ -8263,7 +8263,7 @@ tracks/31/path = NodePath("bapak 5/AnakIbu01:playing")
 tracks/31/interp = 1
 tracks/31/loop_wrap = true
 tracks/31/keys = {
-"times": PackedFloat32Array(51.201),
+"times": PackedFloat32Array(50.89761),
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
@@ -8275,7 +8275,7 @@ tracks/32/path = NodePath("bapak 6:visible")
 tracks/32/interp = 1
 tracks/32/loop_wrap = true
 tracks/32/keys = {
-"times": PackedFloat32Array(0, 54.34668),
+"times": PackedFloat32Array(0, 54.04329),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
@@ -8287,7 +8287,7 @@ tracks/33/path = NodePath("bapak 6/AnakIbu01:playing")
 tracks/33/interp = 1
 tracks/33/loop_wrap = true
 tracks/33/keys = {
-"times": PackedFloat32Array(54.34668),
+"times": PackedFloat32Array(54.04329),
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
@@ -11024,7 +11024,7 @@ position = Vector2(181.99998, -6.999997)
 scale = Vector2(0.8409995, 0.8409995)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 autoplay = "default"
-frame_progress = 0.59616625
+frame_progress = 0.3958406
 
 [node name="kiri" type="CharacterBody2D" parent="." unique_id=220003848]
 visible = false
@@ -11059,7 +11059,7 @@ scale = Vector2(0.8409995, 0.8409995)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 animation = &"kanan"
 autoplay = "kanan"
-frame_progress = 0.22074424
+frame_progress = 0.020417664
 
 [node name="bapak" parent="." unique_id=418857966 instance=ExtResource("15_umvwl")]
 position = Vector2(1715, 1702)
