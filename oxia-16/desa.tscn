@@ -28,8 +28,8 @@
 [ext_resource type="AudioStream" uid="uid://dmoqh3ho1kmw0" path="res://asset/asset_Umum/audio/ibu/ibu_03.mp3" id="23_7wcsk"]
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="24_e3084"]
 [ext_resource type="Texture2D" uid="uid://gvlm26c6oig0" path="res://asset/asset_Umum/percakapan bapak_anak/bapak1.png" id="26_k2rc7"]
-[ext_resource type="AudioStream" uid="uid://cxguof38usrx3" path="res://asset/asset_Umum/audio/bapak/bapak_01.mp3" id="27_v05t0"]
-[ext_resource type="Texture2D" uid="uid://5hibmn8nwaib" path="res://asset/asset_Umum/percakapan bapak_anak/anak1.png" id="29_5snuv"]
+[ext_resource type="AudioStream" uid="uid://c1wigxpbokjig" path="res://asset/asset_Umum/audio/bapak/bapak_01.mp3" id="27_v05t0"]
+[ext_resource type="Texture2D" uid="uid://cp5tk5b1troql" path="res://asset/asset_Umum/percakapan bapak_anak/anak1.png" id="29_5snuv"]
 
 [sub_resource type="Animation" id="Animation_umvwl"]
 length = 0.001
@@ -10895,7 +10895,7 @@ position = Vector2(181.99998, -6.999997)
 scale = Vector2(0.8409995, 0.8409995)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 autoplay = "default"
-frame_progress = 0.32093757
+frame_progress = 0.3397402
 
 [node name="kiri" type="CharacterBody2D" parent="." unique_id=220003848]
 visible = false
@@ -10924,13 +10924,13 @@ frame_progress = 0.45478198
 visible = false
 position = Vector2(1274, 1611)
 
-[node name="why" type="AnimatedSprite2D" parent="kanan" unique_id=1447831360]
+[node name="why2" type="AnimatedSprite2D" parent="kanan" unique_id=1447831360]
 position = Vector2(181.99998, -6.999997)
 scale = Vector2(0.8409995, 0.8409995)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 animation = &"kanan"
-autoplay = "new_animation"
-frame_progress = 0.8201701
+autoplay = "kanan"
+frame_progress = 0.9643413
 
 [node name="bapak" parent="." unique_id=418857966 instance=ExtResource("15_umvwl")]
 position = Vector2(1715, 1702)
