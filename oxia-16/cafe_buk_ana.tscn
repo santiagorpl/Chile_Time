@@ -13345,10 +13345,16 @@ tile_set = SubResource("TileSet_v5gy4")
 position = Vector2(160.5, 112.5)
 scale = Vector2(0.5, 0.5)
 
+[node name="AnimatedSprite2D" parent="pintu/CharacterBody2D" index="0" unique_id=699998783]
+position = Vector2(256, -47)
+
 [node name="Camera2D" parent="pintu/CharacterBody2D" index="1" unique_id=1424707536]
 limit_left = 0
 limit_top = 0
 limit_right = 2880
 limit_bottom = 1600
+
+[node name="CollisionShape2D" parent="pintu/CharacterBody2D" index="2" unique_id=1072672001]
+position = Vector2(254, 41)
 
 [editable path="pintu/CharacterBody2D"]
