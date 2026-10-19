@@ -12,6 +12,8 @@
 [ext_resource type="Texture2D" uid="uid://iq1feej0uv88" path="res://asset/asset_Umum/audio/main menu/Info_pengembang2.png" id="8_dy7ct"]
 [ext_resource type="Script" uid="uid://by4hamertmniu" path="res://kembali.gd" id="11_0k4wn"]
 [ext_resource type="Texture2D" uid="uid://cndxo5l5ef3g2" path="res://asset/asset_Umum/audio/main menu/pengaturan2.png" id="12_j5v2v"]
+[ext_resource type="Script" uid="uid://50p0q1gsptoe" path="res://pengaturan.gd" id="13_iotk1"]
+[ext_resource type="Script" uid="uid://bm2m1j3fvrgdn" path="res://kembali_pengaturan.gd" id="14_w44g7"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0o4t1"]
 
@@ -32,6 +34,13 @@ bg_color = Color(0.2, 0.16078432, 0.11372549, 0.3882353)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7opl3"]
 bg_color = Color(0.2, 0.16078432, 0.11372549, 0.9882353)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w44g7"]
+bg_color = Color(0.21960784, 0.14901961, 0.105882354, 0.9764706)
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
 
 [node name="main menu" type="Control" unique_id=520808125]
 layout_mode = 3
@@ -140,6 +149,7 @@ offset_bottom = 17.001862
 scale = Vector2(72.94099, 52.799652)
 theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.21176471)
 theme_override_styles/normal = SubResource("StyleBoxFlat_ii8jt")
+script = ExtResource("13_iotk1")
 
 [node name="mulai" type="Control" parent="." unique_id=1290954428]
 anchors_preset = 0
@@ -148,10 +158,10 @@ offset_bottom = 40.0
 
 [node name="Mulai" type="Button" parent="mulai" unique_id=356720909]
 layout_mode = 0
-offset_left = -185.00002
-offset_top = -225.0
-offset_right = 394.0
-offset_bottom = 206.0
+offset_left = -198.0
+offset_top = -220.0
+offset_right = 381.0
+offset_bottom = 211.0
 scale = Vector2(0.7128217, 0.2221755)
 theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.31764707)
 theme_override_colors/font_disabled_color = Color(0.8745098, 0.8745098, 0.8745098, 0.35686275)
@@ -176,32 +186,31 @@ theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.2117
 theme_override_styles/normal = SubResource("StyleBoxFlat_ii8jt")
 
 [node name="info pengembang00" type="Sprite2D" parent="." unique_id=1731735980]
-visible = false
 position = Vector2(-1.5258789e-05, 0)
 scale = Vector2(1.4999999, 1.5)
 texture = ExtResource("8_dy7ct")
 
 [node name="Mulai" type="Sprite2D" parent="info pengembang00" unique_id=862074676]
 position = Vector2(-3.9999902, 115.333336)
-scale = Vector2(0.11708738, 0.20484589)
+scale = Vector2(0.17042091, 0.31151173)
 texture = ExtResource("6_8qtwp")
 
 [node name="kembali" type="Button" parent="info pengembang00" unique_id=263003074]
-offset_left = -29.999992
-offset_top = 105.333336
-offset_right = 557.0
-offset_bottom = 544.3332
-scale = Vector2(0.08875543, 0.04461403)
+offset_left = -37.999992
+offset_top = 107.333336
+offset_right = 549.0
+offset_bottom = 546.3332
+scale = Vector2(0.11595619, 0.04042371)
 theme_override_styles/normal = SubResource("StyleBoxFlat_iotk1")
 script = ExtResource("11_0k4wn")
 
 [node name="Label" type="Label" parent="info pengembang00/kembali" unique_id=1985054476]
 layout_mode = 0
-offset_left = 127.69174
-offset_top = 119.543945
-offset_right = 167.69174
-offset_bottom = 142.54395
-scale = Vector2(9.010744, 9.654281)
+offset_left = 40.245102
+offset_top = 49.476006
+offset_right = 80.2451
+offset_bottom = 72.47601
+scale = Vector2(12.393186, 13.0960865)
 theme_override_styles/normal = SubResource("StyleBoxFlat_7opl3")
 
 [node name="Label2" type="Label" parent="info pengembang00/kembali/Label" unique_id=190100568]
@@ -214,15 +223,26 @@ scale = Vector2(0.41675857, 1.0741255)
 text = "kembali
 "
 
-[node name="Pengaturan" type="Sprite2D" parent="." unique_id=1586877749]
+[node name="pengaturan00" type="Sprite2D" parent="." unique_id=1586877749]
 visible = false
 position = Vector2(1.999999, -5)
 scale = Vector2(1.5072154, 1.5056947)
 texture = ExtResource("12_j5v2v")
 
-[node name="Button" type="Button" parent="Pengaturan" unique_id=1747538757]
-offset_left = -68.337944
-offset_top = 102.94253
-offset_right = -60.337944
-offset_bottom = 110.94253
-scale = Vector2(17.974834, 3.2032835)
+[node name="kembali" type="Button" parent="pengaturan00" unique_id=1747538757]
+offset_left = -61.03971
+offset_top = 110.24811
+offset_right = -53.03971
+offset_bottom = 118.24811
+scale = Vector2(15.032296, 2.17973)
+theme_override_styles/normal = SubResource("StyleBoxFlat_w44g7")
+script = ExtResource("14_w44g7")
+
+[node name="Label" type="Label" parent="pengaturan00/kembali" unique_id=1520513315]
+layout_mode = 0
+offset_left = 1.7654655
+offset_top = -1.5234593
+offset_right = 63.765465
+offset_bottom = 21.476542
+scale = Vector2(0.066846825, 0.4708901)
+text = "kembali"
