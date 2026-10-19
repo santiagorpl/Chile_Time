@@ -1,3 +1,86 @@
 [gd_scene format=3 uid="uid://bd6fm2c88sn6w"]
 
-[node name="main menu" type="Node2D" unique_id=336907008]
+[ext_resource type="VideoStream" uid="uid://c00cu5uxqi7dq" path="res://asset/asset_Umum/main menu/main_meu_vidio.ogv" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://dy7e4sp345kdj" path="res://asset/asset_Umum/main menu/Mulai.png" id="2_7vrkn"]
+[ext_resource type="Texture2D" uid="uid://ysp5buupn0r1" path="res://asset/asset_Umum/main menu/bacground main menu.png" id="3_fu7sn"]
+[ext_resource type="Script" uid="uid://dumpyir41q5yo" path="res://bacground_loding.gd" id="4_jix8l"]
+[ext_resource type="Script" uid="uid://23kn852gtyux" path="res://button_mulai.gd" id="5_glbon"]
+[ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="6_nlkkf"]
+[ext_resource type="Texture2D" uid="uid://bjirlibi7k4h6" path="res://asset/asset_Umum/main menu/pengaturan.png" id="6_qe12f"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jix8l"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qe12f"]
+
+[node name="main menu" type="Control" unique_id=520808125]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1579139908]
+scale = Vector2(-11.8607855, -43.42569)
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=455556130]
+layout_mode = 0
+offset_left = -576.0
+offset_top = -324.0
+offset_right = 1344.0
+offset_bottom = 756.0
+scale = Vector2(0.6001049, 0.5875177)
+stream = ExtResource("1_06t4h")
+autoplay = true
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=210841577]
+layout_mode = 0
+offset_left = -574.0
+offset_top = -321.0
+offset_right = 54.0
+offset_bottom = 30.0
+scale = Vector2(1.8436517, 1.8320849)
+texture = ExtResource("3_fu7sn")
+script = ExtResource("4_jix8l")
+
+[node name="Mulai" type="Button" parent="TextureRect" unique_id=356720909]
+layout_mode = 0
+offset_left = 180.61978
+offset_top = 30.566254
+offset_right = 759.61975
+offset_bottom = 461.56625
+scale = Vector2(0.5, 0.505)
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.91764706)
+theme_override_colors/font_disabled_color = Color(0.8745098, 0.8745098, 0.8745098, 0.35686275)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jix8l")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_qe12f")
+icon = ExtResource("2_7vrkn")
+script = ExtResource("5_glbon")
+
+[node name="pengaturan" type="Button" parent="TextureRect" unique_id=210416028]
+layout_mode = 0
+offset_left = 178.9926
+offset_top = 110.256905
+offset_right = 757.9926
+offset_bottom = 541.2569
+scale = Vector2(0.5, 0.505)
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.91764706)
+theme_override_colors/font_disabled_color = Color(0.8745098, 0.8745098, 0.8745098, 0.35686275)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jix8l")
+icon = ExtResource("6_qe12f")
+script = ExtResource("5_glbon")
+
+[node name="info_pengembang" type="Button" parent="TextureRect" unique_id=340587437]
+layout_mode = 0
+offset_left = 151.3301
+offset_top = -25.10801
+offset_right = 730.3301
+offset_bottom = 405.892
+scale = Vector2(0.5, 0.505)
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.91764706)
+theme_override_colors/font_disabled_color = Color(0.8745098, 0.8745098, 0.8745098, 0.35686275)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_styles/normal = SubResource("StyleBoxEmpty_jix8l")
+script = ExtResource("5_glbon")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=929041552]
+stream = ExtResource("6_nlkkf")
+autoplay = true
