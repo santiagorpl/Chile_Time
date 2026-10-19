@@ -62,10 +62,10 @@ autoplay = true
 
 [node name="Mulai" type="TextureRect" parent="." unique_id=210841577]
 layout_mode = 0
-offset_left = -574.0
-offset_top = -321.0
-offset_right = 54.0
-offset_bottom = 30.0
+offset_left = -358.00006
+offset_top = 363.99994
+offset_right = 269.99994
+offset_bottom = 714.99994
 scale = Vector2(1.8436517, 1.8320849)
 texture = ExtResource("3_fu7sn")
 script = ExtResource("4_jix8l")
