@@ -39,6 +39,8 @@
 [ext_resource type="AudioStream" uid="uid://b4oe5dl8vtwoa" path="res://asset/asset_Umum/audio/bapak/bapak_03.mp3" id="37_c7q20"]
 [ext_resource type="Texture2D" uid="uid://b6v6y4raqnfcy" path="res://asset/asset_Umum/percakapan bapak_anak/anak3.png" id="38_urs48"]
 [ext_resource type="AudioStream" uid="uid://c0176fkqkcqu5" path="res://asset/asset_Umum/audio/anak_bapak/anak3.mp3" id="39_rwwh8"]
+[ext_resource type="Texture2D" uid="uid://f0ohlgr7n1qa" path="res://asset/asset_Umum/percakapan bapak_anak/bapak4.png" id="40_asybs"]
+[ext_resource type="AudioStream" uid="uid://d0rdi50xq2bn0" path="res://asset/asset_Umum/audio/bapak/bapak_04.mp3" id="41_dn67w"]
 
 [sub_resource type="Animation" id="Animation_umvwl"]
 length = 0.001
@@ -7883,7 +7885,7 @@ sources/0 = SubResource("TileSetAtlasSource_5ok4q")
 resource_name = "Animasi Desa"
 
 [sub_resource type="Animation" id="Animation_dm5t4"]
-length = 56.866665
+length = 61.033333
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -8275,10 +8277,10 @@ tracks/32/path = NodePath("bapak 6:visible")
 tracks/32/interp = 1
 tracks/32/loop_wrap = true
 tracks/32/keys = {
-"times": PackedFloat32Array(0, 54.04329),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 54.04329, 57.406918),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [false, true]
+"values": [false, true, false]
 }
 tracks/33/type = "value"
 tracks/33/imported = false
@@ -8288,6 +8290,30 @@ tracks/33/interp = 1
 tracks/33/loop_wrap = true
 tracks/33/keys = {
 "times": PackedFloat32Array(54.04329),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/34/type = "value"
+tracks/34/imported = false
+tracks/34/enabled = true
+tracks/34/path = NodePath("bapak 7:visible")
+tracks/34/interp = 1
+tracks/34/loop_wrap = true
+tracks/34/keys = {
+"times": PackedFloat32Array(0, 57.406918),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/35/type = "value"
+tracks/35/imported = false
+tracks/35/enabled = true
+tracks/35/path = NodePath("bapak 7/AnakIbu01:playing")
+tracks/35/interp = 1
+tracks/35/loop_wrap = true
+tracks/35/keys = {
+"times": PackedFloat32Array(57.406918),
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
@@ -11220,6 +11246,20 @@ texture = ExtResource("38_urs48")
 
 [node name="AnakIbu01" type="AudioStreamPlayer" parent="bapak 6" unique_id=2059048602]
 stream = ExtResource("39_rwwh8")
+volume_db = 11.429
+
+[node name="bapak 7" type="CharacterBody2D" parent="." unique_id=1928705453]
+visible = false
+position = Vector2(3170, 3856)
+scale = Vector2(0.965, 0.965)
+
+[node name="Sprite2D" type="Sprite2D" parent="bapak 7" unique_id=293570534]
+position = Vector2(-1579.2745, -2279.7927)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("40_asybs")
+
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="bapak 7" unique_id=1874751303]
+stream = ExtResource("41_dn67w")
 volume_db = 11.429
 
 [editable path="ibu"]
