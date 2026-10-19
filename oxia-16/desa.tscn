@@ -29,7 +29,14 @@
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="24_e3084"]
 [ext_resource type="Texture2D" uid="uid://gvlm26c6oig0" path="res://asset/asset_Umum/percakapan bapak_anak/bapak1.png" id="26_k2rc7"]
 [ext_resource type="AudioStream" uid="uid://c1wigxpbokjig" path="res://asset/asset_Umum/audio/bapak/bapak_01.mp3" id="27_v05t0"]
-[ext_resource type="Texture2D" uid="uid://cp5tk5b1troql" path="res://asset/asset_Umum/percakapan bapak_anak/anak1.png" id="29_5snuv"]
+[ext_resource type="Texture2D" uid="uid://gpdox8ry4rn0" path="res://asset/asset_Umum/percakapan bapak_anak/anak1.png" id="29_5snuv"]
+[ext_resource type="AudioStream" uid="uid://hpropj65roto" path="res://asset/asset_Umum/audio/anak_bapak/anak1.wav" id="31_n3p08"]
+[ext_resource type="Texture2D" uid="uid://cdp5rq0d6v8x7" path="res://asset/asset_Umum/percakapan bapak_anak/bapak2.png" id="32_2bxbd"]
+[ext_resource type="AudioStream" uid="uid://c6ypn7h7wws0i" path="res://asset/asset_Umum/audio/bapak/bapak_02.mp3" id="33_urs48"]
+[ext_resource type="Texture2D" uid="uid://bamx15ieix67v" path="res://asset/asset_Umum/percakapan bapak_anak/anak2.png" id="34_rwwh8"]
+[ext_resource type="AudioStream" uid="uid://d3yk2jauo01x3" path="res://asset/asset_Umum/audio/anak_bapak/anak2.mp3" id="35_asybs"]
+[ext_resource type="Texture2D" uid="uid://drvtfs3gb6a8n" path="res://asset/asset_Umum/percakapan bapak_anak/bapak3.png" id="36_dn67w"]
+[ext_resource type="AudioStream" uid="uid://b4oe5dl8vtwoa" path="res://asset/asset_Umum/audio/bapak/bapak_03.mp3" id="37_c7q20"]
 
 [sub_resource type="Animation" id="Animation_umvwl"]
 length = 0.001
@@ -8146,10 +8153,10 @@ tracks/22/path = NodePath("bapak 1:visible")
 tracks/22/interp = 1
 tracks/22/loop_wrap = true
 tracks/22/keys = {
-"times": PackedFloat32Array(0, 36.2977),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 36.2977, 39.432076),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [false, true]
+"values": [false, true, false]
 }
 tracks/23/type = "value"
 tracks/23/imported = false
@@ -8159,6 +8166,78 @@ tracks/23/interp = 1
 tracks/23/loop_wrap = true
 tracks/23/keys = {
 "times": PackedFloat32Array(36.347183),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("bapak 2:visible")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 39.4321, 42.261425),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("bapak 2/AnakIbu01:playing")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(39.61089),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("bapak 3:visible")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 42.261425, 47.663277),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("bapak 3/AnakIbu01:playing")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(42.466667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("bapak 4:visible")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 47.533333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("bapak 4/AnakIbu01:playing")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(46.429943),
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
@@ -10895,7 +10974,7 @@ position = Vector2(181.99998, -6.999997)
 scale = Vector2(0.8409995, 0.8409995)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 autoplay = "default"
-frame_progress = 0.3397402
+frame_progress = 0.5683623
 
 [node name="kiri" type="CharacterBody2D" parent="." unique_id=220003848]
 visible = false
@@ -10930,7 +11009,7 @@ scale = Vector2(0.8409995, 0.8409995)
 sprite_frames = SubResource("SpriteFrames_1vivr")
 animation = &"kanan"
 autoplay = "kanan"
-frame_progress = 0.9643413
+frame_progress = 0.19293773
 
 [node name="bapak" parent="." unique_id=418857966 instance=ExtResource("15_umvwl")]
 position = Vector2(1715, 1702)
@@ -11041,6 +11120,44 @@ scale = Vector2(2.2978516, 2.2978516)
 texture = ExtResource("29_5snuv")
 
 [node name="AnakIbu01" type="AudioStreamPlayer" parent="bapak 2" unique_id=1754539066]
-stream = ExtResource("27_v05t0")
+stream = ExtResource("31_n3p08")
+
+[node name="bapak 3" type="CharacterBody2D" parent="." unique_id=97598827]
+visible = false
+position = Vector2(3170, 3856)
+
+[node name="Sprite2D" type="Sprite2D" parent="bapak 3" unique_id=1591016420]
+position = Vector2(-1501, -2205)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("32_2bxbd")
+
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="bapak 3" unique_id=1761285141]
+stream = ExtResource("33_urs48")
+
+[node name="bapak 4" type="CharacterBody2D" parent="." unique_id=888062908]
+visible = false
+position = Vector2(3170, 3856)
+
+[node name="Sprite2D" type="Sprite2D" parent="bapak 4" unique_id=1277398339]
+position = Vector2(-1501, -2205)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("34_rwwh8")
+
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="bapak 4" unique_id=2051960435]
+stream = ExtResource("35_asybs")
+volume_db = 11.429
+
+[node name="bapak 5" type="CharacterBody2D" parent="." unique_id=1874028163]
+visible = false
+position = Vector2(3170, 3856)
+
+[node name="Sprite2D" type="Sprite2D" parent="bapak 5" unique_id=769984769]
+position = Vector2(-1501, -2205)
+scale = Vector2(2.2978516, 2.2978516)
+texture = ExtResource("36_dn67w")
+
+[node name="AnakIbu01" type="AudioStreamPlayer" parent="bapak 5" unique_id=559995286]
+stream = ExtResource("37_c7q20")
+volume_db = 11.429
 
 [editable path="ibu"]
