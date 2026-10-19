@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://uoujyt1sa3cb" path="res://asset/asset_Umum/audio/main menu/info_pengembang.png" id="7_dy7ct"]
 [ext_resource type="Texture2D" uid="uid://iq1feej0uv88" path="res://asset/asset_Umum/audio/main menu/Info_pengembang2.png" id="8_dy7ct"]
 [ext_resource type="Script" uid="uid://by4hamertmniu" path="res://kembali.gd" id="11_0k4wn"]
+[ext_resource type="Script" uid="uid://c4ijsbs1fv1w6" path="res://mulai.gd" id="11_cm266"]
 [ext_resource type="Texture2D" uid="uid://cndxo5l5ef3g2" path="res://asset/asset_Umum/audio/main menu/pengaturan2.png" id="12_j5v2v"]
 [ext_resource type="Script" uid="uid://50p0q1gsptoe" path="res://pengaturan.gd" id="13_iotk1"]
 [ext_resource type="Script" uid="uid://bm2m1j3fvrgdn" path="res://kembali_pengaturan.gd" id="14_w44g7"]
@@ -184,6 +185,7 @@ offset_bottom = 17.001862
 scale = Vector2(72.94099, 52.799652)
 theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 0.21176471)
 theme_override_styles/normal = SubResource("StyleBoxFlat_ii8jt")
+script = ExtResource("11_cm266")
 
 [node name="info pengembang00" type="Sprite2D" parent="." unique_id=1731735980]
 visible = false
