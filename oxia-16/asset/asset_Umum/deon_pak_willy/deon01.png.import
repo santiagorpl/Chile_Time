@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bquctpq1raybt"
-path="res://.godot/imported/deon_pak_willy.png-803f06bbc812f3c1a29a0e7b9e3305a5.ctex"
+uid="uid://dsnqk3piyjd5f"
+path="res://.godot/imported/deon01.png-6573eafdf20bc40053b07a15cacd3f32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Umum/deon_pak_willy/deon_pak_willy.png"
-dest_files=["res://.godot/imported/deon_pak_willy.png-803f06bbc812f3c1a29a0e7b9e3305a5.ctex"]
+source_file="res://asset/asset_Umum/deon_pak_willy/deon01.png"
+dest_files=["res://.godot/imported/deon01.png-6573eafdf20bc40053b07a15cacd3f32.ctex"]
 
 [params]
 
