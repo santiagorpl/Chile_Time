@@ -26,6 +26,7 @@ offset_bottom = -513.7798
 scale = Vector2(-1.0911411, 1.0923798)
 stream = ExtResource("1_wq1v1")
 autoplay = true
+loop = true
 
 [node name="Label" type="Label" parent="." unique_id=1152005652]
 layout_mode = 0
