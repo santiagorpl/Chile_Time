@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<<< HEAD:oxia-16/asset/asset_Umum/deon_pak_willy/deon01.png.import
-uid="uid://dsnqk3piyjd5f"
+uid="uid://ljdsitvbxki0"
 path="res://.godot/imported/deon01.png-6573eafdf20bc40053b07a15cacd3f32.ctex"
-========
-uid="uid://h5x4bg66c733"
-path="res://.godot/imported/full_pak_willy.png-9da1a61041e9291a617df77658b539f2.ctex"
->>>>>>>> 757db1e41e9f2057345908c56b301d4d0a3048de:oxia-16/asset/asset_Umum/idle_pak_willy/full_pak_willy.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:oxia-16/asset/asset_Umum/deon_pak_willy/deon01.png.import
 source_file="res://asset/asset_Umum/deon_pak_willy/deon01.png"
 dest_files=["res://.godot/imported/deon01.png-6573eafdf20bc40053b07a15cacd3f32.ctex"]
-========
-source_file="res://asset/asset_Umum/idle_pak_willy/full_pak_willy.png"
-dest_files=["res://.godot/imported/full_pak_willy.png-9da1a61041e9291a617df77658b539f2.ctex"]
->>>>>>>> 757db1e41e9f2057345908c56b301d4d0a3048de:oxia-16/asset/asset_Umum/idle_pak_willy/full_pak_willy.png.import
 
 [params]
 
