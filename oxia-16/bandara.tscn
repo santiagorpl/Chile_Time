@@ -9109,6 +9109,8 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="AudioStreamMP3" id="AudioStreamMP3_hmqej"]
+
 [node name="Node2D" type="Node2D" unique_id=807383674]
 
 [node name="tanah" type="TileMapLayer" parent="." unique_id=1938607998]
@@ -9293,3 +9295,8 @@ autoplay = "default"
 
 [node name="Node2D" parent="." unique_id=1517957886 instance=ExtResource("22_b1buq")]
 position = Vector2(3105, 2421)
+
+[node name="VoicePesawat" type="AudioStreamPlayer2D" parent="." unique_id=338666799]
+position = Vector2(2206, 2404)
+stream = SubResource("AudioStreamMP3_hmqej")
+autoplay = true

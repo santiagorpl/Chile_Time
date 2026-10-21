@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c64kqr1c8y3jj"
+path="res://.godot/imported/voice mobil.mp3-01a1b9e7b63f071902d3343663f9fcde.mp3str"
+
+[deps]
+
+source_file="res://asset/asset_Umum/voice mobil.mp3"
+dest_files=["res://.godot/imported/voice mobil.mp3-01a1b9e7b63f071902d3343663f9fcde.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
