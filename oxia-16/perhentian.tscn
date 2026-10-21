@@ -5,8 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="3_2gs20"]
 [ext_resource type="Texture2D" uid="uid://d0vf2q2ufdtjy" path="res://asset/asset_Umum/01.png" id="3_pjj2o"]
 [ext_resource type="Texture2D" uid="uid://lude5h573hqt" path="res://asset/asset_Umum/pagar.png" id="5_bkcep"]
-[ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/pohon/pohon_pinus_rindang.png" id="5_pjj2o"]
+[ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/tanaman/pohon_pinus_rindang.png" id="5_pjj2o"]
 [ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="7_bc4ur"]
+[ext_resource type="Script" uid="uid://qs0k5w8t33ae" path="res://masukkantor.gd" id="9_m4ojm"]
+[ext_resource type="Texture2D" uid="uid://cmtbcrgmu7y74" path="res://asset/asset_Umum/BN BEMO.png" id="13_1xhre"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h0bek"]
 texture = ExtResource("1_rfvic")
@@ -2382,6 +2384,70 @@ texture = ExtResource("7_bc4ur")
 [sub_resource type="TileSet" id="TileSet_oby04"]
 sources/0 = SubResource("TileSetAtlasSource_m4ojm")
 
+[sub_resource type="Animation" id="Animation_ej64q"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BnBemo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(5327, 2281)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("rumput/CharacterBody2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_y3fwt"]
+resource_name = "new_animation"
+length = 6.0666666
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BnBemo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5333333, 3.28, 6.06, 6.0666666),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(5327, 2281), Vector2(3519, 2287), Vector2(3519, 2287), Vector2(1825, 2276), Vector2(1422, 2276)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("rumput/CharacterBody2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2.83),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hqa1o"]
+_data = {
+&"RESET": SubResource("Animation_ej64q"),
+&"new_animation": SubResource("Animation_y3fwt")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m4ojm"]
+size = Vector2(2405.9868, 245.1145)
+
 [node name="dunia" type="Node2D" unique_id=1188922168]
 
 [node name="tanah" type="TileMapLayer" parent="." unique_id=8941]
@@ -2409,12 +2475,40 @@ tile_map_data = PackedByteArray("AADXANgAAAAAAAEAAADXANkAAAAAAAIAAADYANgAAAABAAE
 tile_set = SubResource("TileSet_oby04")
 
 [node name="CharacterBody2D" parent="rumput" unique_id=2067302777 instance=ExtResource("3_2gs20")]
-position = Vector2(3488, 2112)
+visible = false
+position = Vector2(3563, 2624)
+
+[node name="AnimatedSprite2D" parent="rumput/CharacterBody2D" index="0" unique_id=699998783]
+position = Vector2(6, 0)
 
 [node name="Camera2D" parent="rumput/CharacterBody2D" index="1" unique_id=1424707536]
+position = Vector2(-6.9999924, 14.000015)
 limit_left = 1850
 limit_top = 1100
 limit_right = 5570
 limit_bottom = 4810
+
+[node name="CollisionShape2D" parent="rumput/CharacterBody2D" index="2" unique_id=1072672001]
+position = Vector2(3, 55)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=290676016]
+libraries/ = SubResource("AnimationLibrary_hqa1o")
+autoplay = &"new_animation"
+
+[node name="BnBemo" type="Sprite2D" parent="." unique_id=1085829304]
+position = Vector2(5327, 2281)
+texture = ExtResource("13_1xhre")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=583945546]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1010079950]
+position = Vector2(3008, 1343)
+scale = Vector2(0.31006, 0.31006)
+script = ExtResource("9_m4ojm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=312481071]
+position = Vector2(1754.5, 11139.779)
+scale = Vector2(0.99999976, 0.99999976)
+shape = SubResource("RectangleShape2D_m4ojm")
 
 [editable path="rumput/CharacterBody2D"]

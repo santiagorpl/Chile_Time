@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cdo4ibuagnas5"]
 
-[ext_resource type="Texture2D" uid="uid://hsjbtvlwwhwk" path="res://asset/asset_Umum/idle_pak_willy/idle-removebg-preview.png" id="1_mgk17"]
+[ext_resource type="Texture2D" uid="uid://b1h2fees1t2k6" path="res://asset/asset_Umum/idle_pak_willy/Desain_tanpa_judul__11_-removebg-preview.png" id="1_mgk17"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5g6qx"]
 atlas = ExtResource("1_mgk17")
@@ -14,10 +14,6 @@ region = Rect2(250, 0, 250, 250)
 atlas = ExtResource("1_mgk17")
 region = Rect2(500, 0, 250, 250)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_a5cim"]
-atlas = ExtResource("1_mgk17")
-region = Rect2(750, 0, 250, 250)
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
 animations = [{
 "frames": [{
@@ -29,9 +25,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_tl3a0")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_a5cim")
 }],
 "loop": 1,
 "name": &"idle",
@@ -43,4 +36,4 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1923984711]
 sprite_frames = SubResource("SpriteFrames_m0dig")
 animation = &"idle"
-frame_progress = 0.7955141
+frame_progress = 0.05154157
