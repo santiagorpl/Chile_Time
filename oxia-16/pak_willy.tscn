@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cdo4ibuagnas5"]
+
+[ext_resource type="Texture2D" uid="uid://b1h2fees1t2k6" path="res://asset/asset_Umum/idle_pak_willy/Desain_tanpa_judul__11_-removebg-preview.png" id="1_mgk17"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5g6qx"]
+atlas = ExtResource("1_mgk17")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4v506"]
+atlas = ExtResource("1_mgk17")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tl3a0"]
+atlas = ExtResource("1_mgk17")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5g6qx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4v506")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tl3a0")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="CharacterBody2D" unique_id=1517957886]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1923984711]
+sprite_frames = SubResource("SpriteFrames_m0dig")
+animation = &"idle"
+frame_progress = 0.05154157
