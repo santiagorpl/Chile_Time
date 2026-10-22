@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bu4tm4hnpsxac"]
+
+[ext_resource type="Texture2D" uid="uid://cf185ciad7fa1" path="res://asset/asset_Umum/penanda_pesan.png" id="1_nqts3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bvg5b"]
+atlas = ExtResource("1_nqts3")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_guxhe"]
+atlas = ExtResource("1_nqts3")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lelil"]
+atlas = ExtResource("1_nqts3")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bvg5b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_guxhe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lelil")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=1088484598]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1715475778]
+sprite_frames = SubResource("SpriteFrames_m0dig")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.9026773

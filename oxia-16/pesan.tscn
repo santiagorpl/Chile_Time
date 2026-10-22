@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://bcjjglt1bdsly"]
+
+[ext_resource type="Script" uid="uid://52rdhxx3jelp" path="res://koki.gd" id="1_7nmcb"]
+[ext_resource type="Texture2D" path="res://asset/asset_Umum/penanda_pesan.png" id="2_w21ot"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0b2ic"]
+atlas = ExtResource("2_w21ot")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7nmcb"]
+atlas = ExtResource("2_w21ot")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w21ot"]
+atlas = ExtResource("2_w21ot")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6amv"]
+atlas = ExtResource("2_w21ot")
+region = Rect2(750, 0, 250, 250)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_25h05"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0b2ic")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7nmcb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w21ot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f6amv")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="pesan" type="CharacterBody2D" unique_id=1603940071]
+script = ExtResource("1_7nmcb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1826823551]
+position = Vector2(608, 335)
+sprite_frames = SubResource("SpriteFrames_25h05")
+animation = &"idle"
+frame_progress = 0.3680042

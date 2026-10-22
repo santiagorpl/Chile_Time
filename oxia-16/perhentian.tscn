@@ -10,6 +10,7 @@
 [ext_resource type="AudioStream" uid="uid://c64kqr1c8y3jj" path="res://asset/asset_Umum/voice mobil.mp3" id="8_8ngtl"]
 [ext_resource type="Script" uid="uid://b2xofbbuwpgi8" path="res://perhentian.gd" id="10_f6c0p"]
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="11_f6c0p"]
+[ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="12_n6lp8"]
 [ext_resource type="Texture2D" uid="uid://cmtbcrgmu7y74" path="res://asset/asset_Umum/BN BEMO.png" id="13_1xhre"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h0bek"]
@@ -2544,5 +2545,8 @@ shape = SubResource("RectangleShape2D_m4ojm")
 [node name="AudioGame" type="AudioStreamPlayer" parent="." unique_id=694802832]
 stream = ExtResource("11_f6c0p")
 autoplay = true
+
+[node name="Node2D" parent="." unique_id=1088484598 instance=ExtResource("12_n6lp8")]
+position = Vector2(3558, 4695)
 
 [editable path="rumput/CharacterBody2D"]
