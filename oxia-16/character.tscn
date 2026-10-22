@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dkvoaodqq01fk" path="res://asset/asset_Santiago/karakter/anak/jalan_kanan.png" id="4_wfnr8"]
 [ext_resource type="Texture2D" uid="uid://hnmcua1hachd" path="res://asset/asset_Santiago/karakter/anak/jalan_kiri.png" id="5_px5sl"]
 [ext_resource type="Texture2D" uid="uid://c26smx3m4aavr" path="res://asset/asset_Santiago/karakter/anak/begitu.png" id="6_0qfo5"]
+[ext_resource type="AudioStream" uid="uid://b7d7vp76gb8gu" path="res://asset/asset_Umum/audio/jalan_sound.mp3" id="7_yxww1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bwfjh"]
 atlas = ExtResource("2_wfnr8")
@@ -191,6 +192,10 @@ animation = &"jalan_bawah"
 position = Vector2(-98.999985, -115.99997)
 scale = Vector2(0.4, 0.4)
 zoom = Vector2(0.4, 0.4)
+
+[node name="JalanSound" type="AudioStreamPlayer" parent="." unique_id=23826883]
+stream = ExtResource("7_yxww1")
+volume_db = 24.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1072672001]
 position = Vector2(7, 90)

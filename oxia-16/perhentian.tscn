@@ -7,7 +7,9 @@
 [ext_resource type="Texture2D" uid="uid://lude5h573hqt" path="res://asset/asset_Umum/pagar.png" id="5_bkcep"]
 [ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/tanaman/pohon_pinus_rindang.png" id="5_pjj2o"]
 [ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="7_bc4ur"]
-[ext_resource type="Script" uid="uid://qs0k5w8t33ae" path="res://masukkantor.gd" id="9_m4ojm"]
+[ext_resource type="AudioStream" uid="uid://c64kqr1c8y3jj" path="res://asset/asset_Umum/voice mobil.mp3" id="8_8ngtl"]
+[ext_resource type="Script" uid="uid://b2xofbbuwpgi8" path="res://perhentian.gd" id="10_f6c0p"]
+[ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="11_f6c0p"]
 [ext_resource type="Texture2D" uid="uid://cmtbcrgmu7y74" path="res://asset/asset_Umum/BN BEMO.png" id="13_1xhre"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h0bek"]
@@ -2410,6 +2412,18 @@ tracks/1/keys = {
 "update": 1,
 "values": [false]
 }
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VoiceMobil:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="Animation" id="Animation_y3fwt"]
 resource_name = "new_animation"
@@ -2437,6 +2451,18 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VoiceMobil:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1, 2.53, 3.31, 6.0666666),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, false]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hqa1o"]
@@ -2488,12 +2514,16 @@ limit_top = 1100
 limit_right = 5570
 limit_bottom = 4810
 
-[node name="CollisionShape2D" parent="rumput/CharacterBody2D" index="2" unique_id=1072672001]
+[node name="CollisionShape2D" parent="rumput/CharacterBody2D" index="3" unique_id=1072672001]
 position = Vector2(3, 55)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=290676016]
 libraries/ = SubResource("AnimationLibrary_hqa1o")
 autoplay = &"new_animation"
+
+[node name="VoiceMobil" type="AudioStreamPlayer" parent="." unique_id=824476688]
+stream = ExtResource("8_8ngtl")
+volume_db = 0.5
 
 [node name="BnBemo" type="Sprite2D" parent="." unique_id=1085829304]
 position = Vector2(5327, 2281)
@@ -2504,11 +2534,15 @@ texture = ExtResource("13_1xhre")
 [node name="Area2D" type="Area2D" parent="." unique_id=1010079950]
 position = Vector2(3008, 1343)
 scale = Vector2(0.31006, 0.31006)
-script = ExtResource("9_m4ojm")
+script = ExtResource("10_f6c0p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=312481071]
 position = Vector2(1754.5, 11139.779)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_m4ojm")
+
+[node name="AudioGame" type="AudioStreamPlayer" parent="." unique_id=694802832]
+stream = ExtResource("11_f6c0p")
+autoplay = true
 
 [editable path="rumput/CharacterBody2D"]
