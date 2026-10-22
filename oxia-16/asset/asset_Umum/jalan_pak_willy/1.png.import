@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhem5vs3anwps"
-path="res://.godot/imported/4.png-f706d1b171e5a838679c1e6b255b9cd2.ctex"
+uid="uid://bwbxxdu1gt0sr"
+path="res://.godot/imported/1.png-412718ba4b555159c5b79765a9197a8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Umum/idle_pak_willy/4.png"
-dest_files=["res://.godot/imported/4.png-f706d1b171e5a838679c1e6b255b9cd2.ctex"]
+source_file="res://asset/asset_Umum/jalan_pak_willy/1.png"
+dest_files=["res://.godot/imported/1.png-412718ba4b555159c5b79765a9197a8a.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1h2fees1t2k6"
-path="res://.godot/imported/Desain_tanpa_judul__11_-removebg-preview.png-599977abaf6cdf9a3dcdc467f9186697.ctex"
+uid="uid://bw6ecjrx142kj"
+path="res://.godot/imported/jalan_bwah.png-cc09c8be4e6c99b56413ea4b12be17d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/asset_Umum/idle_pak_willy/Desain_tanpa_judul__11_-removebg-preview.png"
-dest_files=["res://.godot/imported/Desain_tanpa_judul__11_-removebg-preview.png-599977abaf6cdf9a3dcdc467f9186697.ctex"]
+source_file="res://asset/asset_Umum/jalan_pak_willy/jalan_bwah.png"
+dest_files=["res://.godot/imported/jalan_bwah.png-cc09c8be4e6c99b56413ea4b12be17d3.ctex"]
 
 [params]
 
