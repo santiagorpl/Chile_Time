@@ -23,6 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://lude5h573hqt" path="res://asset/asset_Umum/pagar.png" id="21_0yfa4"]
 [ext_resource type="PackedScene" uid="uid://cdo4ibuagnas5" path="res://pak_willy.tscn" id="22_b1buq"]
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="24_hmqej"]
+[ext_resource type="Texture2D" uid="uid://b1h2fees1t2k6" path="res://asset/asset_Umum/jalan_pak_willy/Desain_tanpa_judul__11_-removebg-preview.png" id="24_uq5ai"]
 [ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="25_mn672"]
 [ext_resource type="AudioStream" uid="uid://21trjxjatc12" path="res://asset/asset_Umum/voice pesawat.mp3" id="26_eqjq1"]
 [ext_resource type="Script" uid="uid://btueyxl4kr2i0" path="res://perckapan sama pak willy.gd" id="26_uq5ai"]
@@ -9112,6 +9113,42 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_vfkbl"]
+atlas = ExtResource("24_uq5ai")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgg3i"]
+atlas = ExtResource("24_uq5ai")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwvma"]
+atlas = ExtResource("24_uq5ai")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o66ae"]
+atlas = ExtResource("24_uq5ai")
+region = Rect2(750, 0, 250, 250)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5g6qx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vfkbl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kgg3i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwvma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o66ae")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
 [sub_resource type="AudioStreamMP3" id="AudioStreamMP3_hmqej"]
 
 [node name="Node2D" type="Node2D" unique_id=807383674]
@@ -9297,7 +9334,13 @@ sprite_frames = SubResource("SpriteFrames_uq5ai")
 autoplay = "default"
 
 [node name="Node2D" parent="." unique_id=1517957886 instance=ExtResource("22_b1buq")]
+visible = false
 position = Vector2(3105, 2421)
+
+[node name="AnimatedSprite2D" parent="Node2D" index="0" unique_id=1923984711]
+sprite_frames = SubResource("SpriteFrames_5g6qx")
+animation = &"default"
+frame_progress = 0.50954926
 
 [node name="VoicePesawat" type="AudioStreamPlayer2D" parent="." unique_id=338666799]
 position = Vector2(2206, 2404)
@@ -9313,3 +9356,11 @@ position = Vector2(3103, 2245)
 
 [node name="VoicePesawat" type="AudioStreamPlayer" parent="Node2D2" unique_id=885411663]
 stream = ExtResource("26_eqjq1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2145481266]
+position = Vector2(3105, 2425)
+sprite_frames = SubResource("SpriteFrames_5g6qx")
+autoplay = "default"
+frame_progress = 0.65094686
+
+[editable path="Node2D"]
