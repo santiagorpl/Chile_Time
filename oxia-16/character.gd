@@ -1,15 +1,16 @@
+
 extends CharacterBody2D
 
 var move_speed: float = 500.0
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var jalan_sound: AudioStreamPlayer = $JalanSound
-
+@onready var joystick = get_node_or_null("../CanvasLayer/Joystick")
 
 func _physics_process(_delta: float) -> void:
-	var direction: Vector2 = Vector2.ZERO
+	var direction := Vector2.ZERO
 
-	# Mengambil input dari Input Map
+	# Input keyboard
 	direction.x = (
 		Input.get_action_strength("right")
 		- Input.get_action_strength("left")
@@ -20,18 +21,19 @@ func _physics_process(_delta: float) -> void:
 		- Input.get_action_strength("up")
 	)
 
-	# Menyamakan kecepatan diagonal
+	# Input joystick HP
+	if joystick != null and joystick.arah.length() > 0.1:
+		direction = joystick.arah
+
+	# Samakan kecepatan diagonal
 	direction = direction.normalized()
 
-	# Mengatur kecepatan karakter
+	# Gerakkan karakter dengan sistem fisika Godot
 	velocity = direction * move_speed
-
-	# Menggerakkan karakter
 	move_and_slide()
 
-	# Animasi dan audio saat berjalan
+	# Animasi dan suara
 	if direction != Vector2.ZERO:
-
 		if abs(direction.x) > abs(direction.y):
 			if direction.x > 0:
 				animated_sprite.play("jalan_kanan")
@@ -43,14 +45,10 @@ func _physics_process(_delta: float) -> void:
 			else:
 				animated_sprite.play("jalan_bawah")
 
-		# Putar suara tanpa memulai ulang setiap frame
 		if not jalan_sound.playing:
 			jalan_sound.play()
-
 	else:
-		# Animasi diam
 		animated_sprite.play("diam")
 
-		# Hentikan suara ketika karakter berhenti
 		if jalan_sound.playing:
 			jalan_sound.stop()
