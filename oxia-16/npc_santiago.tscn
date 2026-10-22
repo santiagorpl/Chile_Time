@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://cfjduvigmpdnn"]
+
+[ext_resource type="Texture2D" uid="uid://bik1wgrq6osdh" path="res://asset/asset_santiago/karakter/santiago.png" id="1_wiju4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8pth5"]
+atlas = ExtResource("1_wiju4")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li2cl"]
+atlas = ExtResource("1_wiju4")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ruu3"]
+atlas = ExtResource("1_wiju4")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vpvlb"]
+atlas = ExtResource("1_wiju4")
+region = Rect2(1536, 0, 512, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8pth5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_li2cl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ruu3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vpvlb")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="AnimatedSprite2D" unique_id=1965093669]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_m0dig")
+autoplay = "default"
+frame_progress = 0.139712

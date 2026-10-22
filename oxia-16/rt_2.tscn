@@ -20,6 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://c6ph3bds4qgmp" path="res://asset/asset_Santiago/tanaman/pohon_ek.png" id="19_6fbm8"]
 [ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="19_qkxb8"]
 [ext_resource type="AudioStream" uid="uid://21trjxjatc12" path="res://asset/asset_Umum/voice pesawat.mp3" id="20_qkxb8"]
+[ext_resource type="PackedScene" uid="uid://cfjduvigmpdnn" path="res://npc_santiago.tscn" id="21_cq13c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4plb"]
 texture = ExtResource("12_tqrpt")
@@ -110576,20 +110577,23 @@ tile_set = SubResource("TileSet_6px76")
 [node name="Node2D" parent="." unique_id=1088484598 instance=ExtResource("19_qkxb8")]
 position = Vector2(-4028, 77)
 
-[node name="Node2D2" parent="." unique_id=1154927444 instance=ExtResource("19_qkxb8")]
-position = Vector2(-1869, 508)
+[node name="Node2D2" parent="Node2D" unique_id=1154927444 instance=ExtResource("19_qkxb8")]
+position = Vector2(2159, 431)
 
-[node name="Node2D3" parent="." unique_id=1472399887 instance=ExtResource("19_qkxb8")]
-position = Vector2(-1786, -2010)
+[node name="Node2D3" parent="Node2D" unique_id=1472399887 instance=ExtResource("19_qkxb8")]
+position = Vector2(2242, -2087)
 
-[node name="Node2D4" parent="." unique_id=494554292 instance=ExtResource("19_qkxb8")]
-position = Vector2(-3892, -651)
+[node name="Node2D4" parent="Node2D" unique_id=494554292 instance=ExtResource("19_qkxb8")]
+position = Vector2(136, -728)
 
-[node name="Node2D5" parent="." unique_id=189093790 instance=ExtResource("19_qkxb8")]
-position = Vector2(-2582, -1007)
+[node name="Node2D5" parent="Node2D" unique_id=189093790 instance=ExtResource("19_qkxb8")]
+position = Vector2(1446, -1084)
 
 [node name="VoicePesawat" type="AudioStreamPlayer" parent="." unique_id=389486723]
 stream = ExtResource("20_qkxb8")
+
+[node name="npc_santiago" parent="." unique_id=1965093669 instance=ExtResource("21_cq13c")]
+position = Vector2(-2507, 759)
 
 [editable path="CharacterBody2D"]
 [editable path="Area2D2"]
