@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bcdaimpkql78h" path="res://asset/asset_Aril/pesawat.png" id="1_87osb"]
 [ext_resource type="Texture2D" uid="uid://dpefswglox5jm" path="res://asset/asset_Aril/tanah.png" id="2_k6do7"]
 [ext_resource type="Texture2D" uid="uid://b6q2i3unm72ml" path="res://asset/asset_Aril/landasan.png" id="3_wx8g5"]
+[ext_resource type="Texture2D" uid="uid://bw6ecjrx142kj" path="res://asset/asset_Umum/jalan_pak_willy/jalan_bwah.png" id="7_ykfpg"]
 [ext_resource type="Script" uid="uid://b1btgmwqbwqgy" path="res://gantiscense setelah banara.gd" id="14_4x84b"]
 [ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="16_qtqqf"]
 [ext_resource type="Script" uid="uid://c6mbusav7s16t" path="res://animation_player_2.gd" id="18_a4m36"]
@@ -11063,6 +11064,42 @@ texture = ExtResource("19_7k5ia")
 [sub_resource type="TileSet" id="TileSet_iv4g7"]
 sources/0 = SubResource("TileSetAtlasSource_q8i6d")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_2vmbw"]
+atlas = ExtResource("7_ykfpg")
+region = Rect2(0, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4x84b"]
+atlas = ExtResource("7_ykfpg")
+region = Rect2(250, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ykfpg"]
+atlas = ExtResource("7_ykfpg")
+region = Rect2(500, 0, 250, 250)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5lho"]
+atlas = ExtResource("7_ykfpg")
+region = Rect2(750, 0, 250, 250)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wecjk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2vmbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4x84b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ykfpg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5lho")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_kwdoj"]
 atlas = ExtResource("20_44bct")
 region = Rect2(0, 0, 250, 250)
@@ -11247,6 +11284,12 @@ tile_set = SubResource("TileSet_iv4g7")
 [node name="bawah" type="CharacterBody2D" parent="." unique_id=799146369]
 position = Vector2(2813, 2434)
 
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="bawah" unique_id=793567259]
+position = Vector2(285, -13)
+scale = Vector2(0.9615145, 0.9615145)
+sprite_frames = SubResource("SpriteFrames_wecjk")
+autoplay = "default"
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="bawah" unique_id=1391977193]
 position = Vector2(181.99998, -6.999997)
 scale = Vector2(0.8409995, 0.8409995)
@@ -11259,6 +11302,10 @@ zoom = Vector2(0.32, 0.295)
 
 [node name="Node2D" parent="." unique_id=1517957886 instance=ExtResource("24_bmsvq")]
 position = Vector2(3105, 2421)
+
+[node name="AnimatedSprite2D" parent="Node2D" index="0" unique_id=1923984711]
+position = Vector2(487, -7)
+autoplay = "jalan_bawah"
 
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("16_qtqqf")]
 position = Vector2(5078, 4728)
@@ -11275,4 +11322,5 @@ script = ExtResource("14_4x84b")
 position = Vector2(4666.839, 11162.355)
 shape = SubResource("CircleShape2D_ykfpg")
 
+[editable path="Node2D"]
 [editable path="CharacterBody2D"]

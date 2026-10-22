@@ -70,4 +70,4 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1923984711]
 sprite_frames = SubResource("SpriteFrames_m0dig")
 animation = &"jalan_bawah"
-frame_progress = 0.6635501
+frame_progress = 0.8152416
