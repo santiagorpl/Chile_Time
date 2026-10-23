@@ -25,6 +25,7 @@
 [ext_resource type="PackedScene" uid="uid://ctnvoyu34bkv2" path="res://cafe_buk_ana.tscn" id="22_0hl7l"]
 [ext_resource type="PackedScene" uid="uid://cnj8r1y0b0e62" path="res://aula_asrama.tscn" id="23_oxrca"]
 [ext_resource type="PackedScene" uid="uid://ce3r73bllps8j" path="res://Asrama.tscn" id="24_tp5ac"]
+[ext_resource type="PackedScene" uid="uid://bkdrd8gvpc26s" path="res://taman_asrama.tscn" id="26_iu75t"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4plb"]
 texture = ExtResource("12_tqrpt")
@@ -110734,6 +110735,9 @@ sources/0 = SubResource("TileSetAtlasSource_o8tuc")
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tp5ac"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8vrlf"]
+size = Vector2(17.008179, 23.463806)
+
 [node name="Node2D" type="Node2D" unique_id=1893008893]
 position = Vector2(4798, 2855)
 
@@ -111046,6 +111050,37 @@ shape = SubResource("RectangleShape2D_tp5ac")
 [node name="DestinationPoint" parent="keluar_gedung_B" index="2" unique_id=1463864298]
 position = Vector2(1050.4034, -789.0751)
 
+[node name="dunia" parent="." unique_id=689605761 instance=ExtResource("26_iu75t")]
+position = Vector2(-725, 9671)
+
+[node name="masuk_taman" parent="." unique_id=1752432043 instance=ExtResource("16_wn37m")]
+position = Vector2(-10248, 4588)
+scale = Vector2(8.055, 8.055)
+
+[node name="AnimatedSprite2D" parent="masuk_taman" index="0" unique_id=130470614]
+position = Vector2(-149.96896, -34.761017)
+
+[node name="CollisionShape2D" parent="masuk_taman" index="1" unique_id=1778532169]
+position = Vector2(955.24524, -688.082)
+shape = SubResource("RectangleShape2D_8vrlf")
+
+[node name="DestinationPoint" parent="masuk_taman" index="2" unique_id=1463864298]
+position = Vector2(1261.9491, 775.0466)
+
+[node name="masuk_taman2" parent="." unique_id=1482302555 instance=ExtResource("16_wn37m")]
+position = Vector2(-10248, 4588)
+scale = Vector2(8.055, 8.055)
+
+[node name="AnimatedSprite2D" parent="masuk_taman2" index="0" unique_id=130470614]
+position = Vector2(-149.96896, -34.761017)
+
+[node name="CollisionShape2D" parent="masuk_taman2" index="1" unique_id=1778532169]
+position = Vector2(1227.1881, 771.69464)
+shape = SubResource("RectangleShape2D_8vrlf")
+
+[node name="DestinationPoint" parent="masuk_taman2" index="2" unique_id=1463864298]
+position = Vector2(955.4314, -668.15643)
+
 [editable path="CharacterBody2D"]
 [editable path="masuk kantor"]
 [editable path="keluar kantor"]
@@ -111055,3 +111090,5 @@ position = Vector2(1050.4034, -789.0751)
 [editable path="keluar_aula"]
 [editable path="Masuk_gedung_B"]
 [editable path="keluar_gedung_B"]
+[editable path="masuk_taman"]
+[editable path="masuk_taman2"]
