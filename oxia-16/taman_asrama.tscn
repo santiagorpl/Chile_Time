@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://de0wikha67k4n" path="res://asset/asset_Santiago/tanah/tanah bajak.jpg" id="3_1jt20"]
 [ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="3_suyue"]
 [ext_resource type="Texture2D" uid="uid://dnbissfdqkl0g" path="res://asset/asset_Santiago/rumah/pagar.png" id="4_suyue"]
-[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="6_01pfv"]
+[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/rumput.png" id="6_01pfv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_01pfv"]
 texture = ExtResource("1_8dlui")

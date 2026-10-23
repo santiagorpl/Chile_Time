@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://de0wikha67k4n" path="res://asset/asset_Santiago/tanah/tanah bajak.jpg" id="3_bfnci"]
 [ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/tanaman/pohon_pinus_rindang.png" id="6_5ok4q"]
 [ext_resource type="Texture2D" uid="uid://b48aswnfyru17" path="res://asset/asset_Santiago/tanaman/pohon_kelapa.png" id="7_6hadn"]
-[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="8_dr1pt"]
+[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/rumput.png" id="8_dr1pt"]
 [ext_resource type="Texture2D" uid="uid://glsto0mestlv" path="res://asset/asset_Santiago/rumah/rumah_desa.png" id="10_5ok4q"]
 [ext_resource type="Texture2D" uid="uid://cug3tlb00371o" path="res://asset/asset_Santiago/karakter/anak/jalan_bawah.png" id="10_dr1pt"]
 [ext_resource type="Texture2D" uid="uid://hnmcua1hachd" path="res://asset/asset_Santiago/karakter/anak/jalan_kiri.png" id="11_gjg6t"]

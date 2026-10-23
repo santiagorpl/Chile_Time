@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://d0vf2q2ufdtjy" path="res://asset/asset_Umum/01.png" id="3_pjj2o"]
 [ext_resource type="Texture2D" uid="uid://lude5h573hqt" path="res://asset/asset_Umum/pagar.png" id="5_bkcep"]
 [ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/tanaman/pohon_pinus_rindang.png" id="5_pjj2o"]
-[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="7_bc4ur"]
+[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/rumput.png" id="7_bc4ur"]
 [ext_resource type="AudioStream" uid="uid://c64kqr1c8y3jj" path="res://asset/asset_Umum/voice mobil.mp3" id="8_8ngtl"]
 [ext_resource type="Script" uid="uid://b2xofbbuwpgi8" path="res://perhentian.gd" id="10_f6c0p"]
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="11_f6c0p"]

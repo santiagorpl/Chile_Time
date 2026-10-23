@@ -23,7 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://lude5h573hqt" path="res://asset/asset_Umum/pagar.png" id="21_0yfa4"]
 [ext_resource type="PackedScene" uid="uid://cdo4ibuagnas5" path="res://pak_willy.tscn" id="22_b1buq"]
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="24_hmqej"]
-[ext_resource type="Texture2D" uid="uid://b1h2fees1t2k6" path="res://asset/asset_Umum/jalan_pak_willy/Desain_tanpa_judul__11_-removebg-preview.png" id="24_uq5ai"]
+[ext_resource type="Texture2D" uid="uid://cx8gdtn1x8ygr" path="res://asset/asset_Umum/jalan_pak_willy/idle.png" id="24_uq5ai"]
 [ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="25_mn672"]
 [ext_resource type="AudioStream" uid="uid://21trjxjatc12" path="res://asset/asset_Umum/voice pesawat.mp3" id="26_eqjq1"]
 [ext_resource type="Script" uid="uid://btueyxl4kr2i0" path="res://perckapan sama pak willy.gd" id="26_uq5ai"]

@@ -2,13 +2,13 @@
 
 [ext_resource type="Texture2D" uid="uid://busg34b17um7l" path="res://asset/asset_Santiago/maps/maps.jpg" id="1_l21sl"]
 [ext_resource type="Script" uid="uid://dljjd4gu7q7ru" path="res://rt_1.gd" id="1_m8c22"]
-[ext_resource type="Texture2D" uid="uid://c6ph3bds4qgmp" path="res://asset/asset_Santiago/pohon/pohon_ek.png" id="3_caxu6"]
+[ext_resource type="Texture2D" uid="uid://c6ph3bds4qgmp" path="res://asset/asset_Santiago/tanaman/pohon_ek.png" id="3_caxu6"]
 [ext_resource type="Texture2D" uid="uid://k64o2ft6urky" path="res://asset/asset_Santiago/maps/perapian.png" id="4_05jej"]
-[ext_resource type="Texture2D" uid="uid://b48aswnfyru17" path="res://asset/asset_Santiago/pohon/pohon_kelapa.png" id="4_d8h2h"]
+[ext_resource type="Texture2D" uid="uid://b48aswnfyru17" path="res://asset/asset_Santiago/tanaman/pohon_kelapa.png" id="4_d8h2h"]
 [ext_resource type="Texture2D" uid="uid://cw47o2587n127" path="res://asset/asset_Santiago/maps/tenda.png" id="5_cf6nk"]
 [ext_resource type="Texture2D" uid="uid://de0wikha67k4n" path="res://asset/asset_Santiago/tanah/tanah bajak.jpg" id="5_cn58g"]
 [ext_resource type="Texture2D" uid="uid://lobguu0uw08i" path="res://asset/asset_Santiago/kapal/pelabuhan/16x3104-removebg-preview.png" id="6_cf6nk"]
-[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/Gemini_Generated_Image_51kzm651kzm651kz-removebg-preview.png" id="6_xu6gq"]
+[ext_resource type="Texture2D" uid="uid://c4beuexx87yl0" path="res://asset/asset_Santiago/runput/rumput.png" id="6_xu6gq"]
 [ext_resource type="Texture2D" uid="uid://c0kwcoax8p05j" path="res://asset/asset_Santiago/objek/Desain_tanpa_judul__19_-removebg-preview.png" id="7_jhtby"]
 [ext_resource type="Texture2D" uid="uid://ctssjusweeths" path="res://asset/asset_Santiago/kapal/kapal/kapal_rusak - Copy.png" id="7_ok25o"]
 [ext_resource type="Texture2D" uid="uid://dyo6ta5kqqafn" path="res://asset/asset_Santiago/rumah/warung ikan.png" id="8_it4oq"]
@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://benupt75m8tx7" path="res://toko.tscn" id="17_sjs60"]
 [ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="18_m8c22"]
 [ext_resource type="Texture2D" uid="uid://bc66cov7pj8b8" path="res://asset/asset_Santiago/tanah/tanahku.png" id="19_626ky"]
-[ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/pohon/pohon_pinus_rindang.png" id="20_q4sx5"]
+[ext_resource type="Texture2D" uid="uid://cm8igwxqnwbh3" path="res://asset/asset_Santiago/tanaman/pohon_pinus_rindang.png" id="20_q4sx5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_caxu6"]
 texture = ExtResource("1_l21sl")
