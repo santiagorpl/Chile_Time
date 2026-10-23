@@ -110502,7 +110502,7 @@ tile_map_data = PackedByteArray("AADj/r4AAAABAAQAAADj/r8AAAABAAUAAADk/r4AAAABAAQ
 tile_set = SubResource("TileSet_jm1ur")
 
 [node name="cafe_buk_ana" parent="." unique_id=1750547887 instance=ExtResource("22_0hl7l")]
-position = Vector2(1456, 3904)
+position = Vector2(2033, 4813)
 
 [node name="Aula" parent="." unique_id=1606726338 instance=ExtResource("23_oxrca")]
 position = Vector2(-2953, 4337)
