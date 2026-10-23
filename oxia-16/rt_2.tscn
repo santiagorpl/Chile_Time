@@ -110618,7 +110618,7 @@ position = Vector2(-149.96896, -34.761017)
 position = Vector2(627.6847, -505.4004)
 
 [node name="DestinationPoint" parent="masuk warung bu ana" index="2" unique_id=1463864298]
-position = Vector2(1108.3799, -17.008146)
+position = Vector2(1179.8883, 95.96516)
 
 [node name="dunia3" parent="." unique_id=653192672 instance=ExtResource("24_tp5ac")]
 position = Vector2(-9183, -1833)
@@ -110631,7 +110631,7 @@ scale = Vector2(8.055, 8.055)
 position = Vector2(-149.96896, -34.761017)
 
 [node name="CollisionShape2D" parent="keluar warung bu ana2" index="1" unique_id=1778532169]
-position = Vector2(1108.8765, 14.276777)
+position = Vector2(1179.3917, 126.25691)
 
 [node name="DestinationPoint" parent="keluar warung bu ana2" index="2" unique_id=1463864298]
 position = Vector2(628.0572, -490.8753)
