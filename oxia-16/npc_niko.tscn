@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://b35q2rxhqfjtx"]
+
+[ext_resource type="Texture2D" uid="uid://d0c674wncke7b" path="res://asset/asset_Umum/karakter/niko.png" id="1_i0uma"]
+[ext_resource type="Script" uid="uid://nmhpirlt01kj" path="res://npc_niko.gd" id="2_a22sd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a22sd"]
+atlas = ExtResource("1_i0uma")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38ro4"]
+atlas = ExtResource("1_i0uma")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c04ck"]
+atlas = ExtResource("1_i0uma")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a22sd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38ro4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c04ck")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=595377916]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_m0dig")
+autoplay = "default"
+frame_progress = 0.6624994
+script = ExtResource("2_a22sd")
