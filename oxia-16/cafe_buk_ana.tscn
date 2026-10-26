@@ -5,9 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cww7k5ppinvpq" path="res://text_niko.tscn" id="3_nvq3s"]
 [ext_resource type="Texture2D" uid="uid://ts47lcd542mn" path="res://asset/asset_Umum/cafe buk Ana.png" id="3_s36jo"]
 [ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="5_48n2i"]
-[ext_resource type="PackedScene" uid="uid://b07hv5kahk4ji" path="res://character.tscn" id="6_nvq3s"]
 [ext_resource type="Texture2D" uid="uid://d0c674wncke7b" path="res://asset/asset_Umum/karakter/niko.png" id="7_88muv"]
-[ext_resource type="Script" uid="uid://bmlqckvctivu5" path="res://nikospirte.gd" id="7_mfg6u"]
 [ext_resource type="Script" uid="uid://4ds2658vhdt1" path="res://niko.gd" id="8_mfg6u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_48n2i"]
@@ -18376,12 +18374,6 @@ autoplay = "default"
 [node name="Node2D" parent="." unique_id=1088484598 instance=ExtResource("5_48n2i")]
 position = Vector2(683, -136)
 
-[node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("6_nvq3s")]
-position = Vector2(581, 362)
-
-[node name="AnimatedSprite2D" parent="CharacterBody2D" index="0" unique_id=699998783]
-script = ExtResource("7_mfg6u")
-
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1268567219]
 position = Vector2(683, 24)
 scale = Vector2(0.506, 0.506)
@@ -18400,4 +18392,3 @@ position = Vector2(1.976284, 104.74309)
 shape = SubResource("CircleShape2D_25h05")
 
 [editable path="Node2D"]
-[editable path="CharacterBody2D"]
