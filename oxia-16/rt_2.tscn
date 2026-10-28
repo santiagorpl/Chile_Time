@@ -110880,6 +110880,12 @@ limit_bottom = 10022
 [node name="CollisionShape2D" parent="CharacterBody2D" index="3" unique_id=1072672001]
 position = Vector2(7, 80)
 
+[node name="VirtualJoystick" parent="CharacterBody2D" index="4" unique_id=1053814633]
+offset_left = -1202.0
+offset_top = 291.0
+offset_right = -850.0
+offset_bottom = 616.0
+
 [node name="masuk kantor" parent="." unique_id=1249990832 instance=ExtResource("16_wn37m")]
 position = Vector2(-3979, 424)
 scale = Vector2(8.055, 8.055)

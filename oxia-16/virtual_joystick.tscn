@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cdsumvli3pvfi"]
+
+[node name="VirtualJoystick" type="VirtualJoystick" unique_id=1053814633]
+offset_right = 40.0
+offset_bottom = 40.0
