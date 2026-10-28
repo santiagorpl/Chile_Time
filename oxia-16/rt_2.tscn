@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://cnj8r1y0b0e62" path="res://aula_asrama.tscn" id="23_oxrca"]
 [ext_resource type="PackedScene" uid="uid://ce3r73bllps8j" path="res://Asrama.tscn" id="24_tp5ac"]
 [ext_resource type="PackedScene" uid="uid://bkdrd8gvpc26s" path="res://taman_asrama.tscn" id="26_iu75t"]
+[ext_resource type="PackedScene" uid="uid://l56i2njw0a8w" path="res://joysticks.tscn" id="27_ktsd2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4plb"]
 texture = ExtResource("12_tqrpt")
@@ -110880,12 +110881,6 @@ limit_bottom = 10022
 [node name="CollisionShape2D" parent="CharacterBody2D" index="3" unique_id=1072672001]
 position = Vector2(7, 80)
 
-[node name="VirtualJoystick" parent="CharacterBody2D" index="4" unique_id=1053814633]
-offset_left = -1202.0
-offset_top = 291.0
-offset_right = -850.0
-offset_bottom = 616.0
-
 [node name="masuk kantor" parent="." unique_id=1249990832 instance=ExtResource("16_wn37m")]
 position = Vector2(-3979, 424)
 scale = Vector2(8.055, 8.055)
@@ -111086,6 +111081,8 @@ shape = SubResource("RectangleShape2D_8vrlf")
 
 [node name="DestinationPoint" parent="masuk_taman2" index="2" unique_id=1463864298]
 position = Vector2(955.4314, -668.15643)
+
+[node name="CanvasLayer" parent="." unique_id=970508207 instance=ExtResource("27_ktsd2")]
 
 [editable path="CharacterBody2D"]
 [editable path="masuk kantor"]
