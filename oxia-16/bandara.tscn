@@ -27,6 +27,7 @@
 [ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="25_mn672"]
 [ext_resource type="AudioStream" uid="uid://21trjxjatc12" path="res://asset/asset_Umum/voice pesawat.mp3" id="26_eqjq1"]
 [ext_resource type="Script" uid="uid://btueyxl4kr2i0" path="res://perckapan sama pak willy.gd" id="26_uq5ai"]
+[ext_resource type="PackedScene" uid="uid://l56i2njw0a8w" path="res://joysticks.tscn" id="28_vfkbl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mn672"]
 texture = ExtResource("1_b8c7m")
@@ -9362,5 +9363,7 @@ position = Vector2(3105, 2425)
 sprite_frames = SubResource("SpriteFrames_5g6qx")
 autoplay = "default"
 frame_progress = 0.65094686
+
+[node name="CanvasLayer" parent="." unique_id=970508207 instance=ExtResource("28_vfkbl")]
 
 [editable path="Node2D"]

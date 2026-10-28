@@ -10,13 +10,15 @@ config_version=5
 
 [application]
 
-config/name="oxia16"
-run/main_scene="uid://cxhctn4hxx27b"
+config/name="Aspada"
+run/main_scene="uid://bd6fm2c88sn6w"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://bidotto2h3wj3"
 
 [display]
 
+window/size/viewport_width=1280
+window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
@@ -66,3 +68,4 @@ pointing/emulate_touch_from_mouse=true
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+textures/vram_compression/import_etc2_astc=true

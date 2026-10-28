@@ -11,7 +11,7 @@ bg_color = Color(0, 0, 0, 1)
 [node name="dunia" type="Control" unique_id=906041690]
 layout_mode = 3
 anchors_preset = 0
-scale = Vector2(-0.5506941, 0.58507013)
+scale = Vector2(-0.621, 0.66)
 script = ExtResource("1_cxkjq")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1664947440]

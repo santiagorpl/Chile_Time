@@ -12,6 +12,7 @@
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="11_f6c0p"]
 [ext_resource type="PackedScene" uid="uid://bu4tm4hnpsxac" path="res://pesan_penanda.tscn" id="12_n6lp8"]
 [ext_resource type="Texture2D" uid="uid://cmtbcrgmu7y74" path="res://asset/asset_Umum/BN BEMO.png" id="13_1xhre"]
+[ext_resource type="PackedScene" uid="uid://l56i2njw0a8w" path="res://joysticks.tscn" id="13_832g5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h0bek"]
 texture = ExtResource("1_rfvic")
@@ -2548,5 +2549,7 @@ autoplay = true
 
 [node name="Node2D" parent="." unique_id=1088484598 instance=ExtResource("12_n6lp8")]
 position = Vector2(3558, 4695)
+
+[node name="CanvasLayer" parent="." unique_id=970508207 instance=ExtResource("13_832g5")]
 
 [editable path="rumput/CharacterBody2D"]
