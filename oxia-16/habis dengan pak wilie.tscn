@@ -12,7 +12,6 @@
 [ext_resource type="Texture2D" uid="uid://dkvoaodqq01fk" path="res://asset/asset_Santiago/karakter/anak/jalan_kanan.png" id="21_11j1d"]
 [ext_resource type="Texture2D" uid="uid://hnmcua1hachd" path="res://asset/asset_Santiago/karakter/anak/jalan_kiri.png" id="22_qt60y"]
 [ext_resource type="Texture2D" uid="uid://ri2b2xr7yxem" path="res://asset/asset_Santiago/karakter/anak/idle_nie.png" id="23_tpf5o"]
-[ext_resource type="PackedScene" uid="uid://cdo4ibuagnas5" path="res://pak_willy.tscn" id="24_bmsvq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u0kuf"]
 texture = ExtResource("1_87osb")
@@ -8465,22 +8464,10 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Node2D:position")
+tracks/2/path = NodePath("CharacterBody2D:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(3105, 2421)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("CharacterBody2D:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -8517,22 +8504,10 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Node2D:position")
+tracks/2/path = NodePath("CharacterBody2D:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 3.2666667),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(3105, 2421), Vector2(3117, 3345)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("CharacterBody2D:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
 "times": PackedFloat32Array(0, 3.6333334),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
@@ -11300,13 +11275,6 @@ autoplay = "default"
 position = Vector2(253, -14)
 zoom = Vector2(0.32, 0.295)
 
-[node name="Node2D" parent="." unique_id=1517957886 instance=ExtResource("24_bmsvq")]
-position = Vector2(3105, 2421)
-
-[node name="AnimatedSprite2D" parent="Node2D" index="0" unique_id=1923984711]
-position = Vector2(487, -7)
-autoplay = "jalan_bawah"
-
 [node name="CharacterBody2D" parent="." unique_id=2067302777 instance=ExtResource("16_qtqqf")]
 position = Vector2(5078, 4728)
 
@@ -11322,5 +11290,4 @@ script = ExtResource("14_4x84b")
 position = Vector2(4666.839, 11162.355)
 shape = SubResource("CircleShape2D_ykfpg")
 
-[editable path="Node2D"]
 [editable path="CharacterBody2D"]

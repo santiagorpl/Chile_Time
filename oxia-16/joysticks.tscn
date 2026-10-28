@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://l56i2njw0a8w"]
+
+[ext_resource type="PackedScene" uid="uid://cdsumvli3pvfi" path="res://virtual_joystick.tscn" id="1_kaxv6"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=970508207]
+
+[node name="VirtualJoystick" parent="." unique_id=1053814633 instance=ExtResource("1_kaxv6")]
+offset_left = 32.0
+offset_top = 330.0
+offset_right = 394.0
+offset_bottom = 638.0
+joystick_size = 196.0
+tip_size = 72.0
