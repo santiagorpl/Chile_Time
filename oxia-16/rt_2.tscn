@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://cnj8r1y0b0e62" path="res://aula_asrama.tscn" id="23_oxrca"]
 [ext_resource type="PackedScene" uid="uid://ce3r73bllps8j" path="res://Asrama.tscn" id="24_tp5ac"]
 [ext_resource type="PackedScene" uid="uid://bkdrd8gvpc26s" path="res://taman_asrama.tscn" id="26_iu75t"]
+[ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="27_ktsd2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4plb"]
 texture = ExtResource("12_tqrpt")
@@ -110868,10 +110869,10 @@ position = Vector2(6005, 4921)
 position = Vector2(-3201, 996)
 
 [node name="AnimatedSprite2D" parent="CharacterBody2D" index="0" unique_id=699998783]
-position = Vector2(13, -1)
+position = Vector2(15, -1)
 
 [node name="Camera2D" parent="CharacterBody2D" index="1" unique_id=1424707536]
-position = Vector2(4.0004883, -3.0004883)
+position = Vector2(6, 18)
 limit_left = 0
 limit_top = -3397
 limit_right = 16829
@@ -111051,7 +111052,7 @@ shape = SubResource("RectangleShape2D_tp5ac")
 position = Vector2(1050.4034, -789.0751)
 
 [node name="dunia" parent="." unique_id=689605761 instance=ExtResource("26_iu75t")]
-position = Vector2(-725, 9671)
+position = Vector2(9215, 1031)
 
 [node name="masuk_taman" parent="." unique_id=1752432043 instance=ExtResource("16_wn37m")]
 position = Vector2(-10248, 4588)
@@ -111065,7 +111066,7 @@ position = Vector2(955.24524, -688.082)
 shape = SubResource("RectangleShape2D_8vrlf")
 
 [node name="DestinationPoint" parent="masuk_taman" index="2" unique_id=1463864298]
-position = Vector2(1261.9491, 775.0466)
+position = Vector2(2501.8, -325.38794)
 
 [node name="masuk_taman2" parent="." unique_id=1482302555 instance=ExtResource("16_wn37m")]
 position = Vector2(-10248, 4588)
@@ -111075,11 +111076,15 @@ scale = Vector2(8.055, 8.055)
 position = Vector2(-149.96896, -34.761017)
 
 [node name="CollisionShape2D" parent="masuk_taman2" index="1" unique_id=1778532169]
-position = Vector2(1227.1881, 771.69464)
+position = Vector2(2501.9243, -296.9584)
 shape = SubResource("RectangleShape2D_8vrlf")
 
 [node name="DestinationPoint" parent="masuk_taman2" index="2" unique_id=1463864298]
 position = Vector2(955.4314, -668.15643)
+
+[node name="AudioGame" type="AudioStreamPlayer" parent="." unique_id=531937508]
+stream = ExtResource("27_ktsd2")
+autoplay = true
 
 [editable path="CharacterBody2D"]
 [editable path="masuk kantor"]

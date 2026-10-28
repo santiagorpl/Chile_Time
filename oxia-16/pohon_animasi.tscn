@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://cvb8jvryvv8m0"]
+
+[ext_resource type="Texture2D" uid="uid://e3fwlgbdi746" path="res://asset/asset_Santiago/tanaman/pohon_animation.png" id="1_hggxe"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7jpb"]
+atlas = ExtResource("1_hggxe")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ktgxj"]
+atlas = ExtResource("1_hggxe")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sj2xb"]
+atlas = ExtResource("1_hggxe")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m0dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v7jpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ktgxj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sj2xb")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=1645675840]
+sprite_frames = SubResource("SpriteFrames_m0dig")
+autoplay = "default"
+frame_progress = 0.8576299
