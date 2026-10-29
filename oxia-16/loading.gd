@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var progress_bar = $ProgressBar
-@export var next_scene_path: String = "res://rt_1.tscn"
+@export var next_scene_path: String = "res://rt_2.tscn"
 var progress: Array[float] = []
 
 func _ready():
