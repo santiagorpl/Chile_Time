@@ -29,6 +29,7 @@
 [ext_resource type="PackedScene" uid="uid://bkdrd8gvpc26s" path="res://taman_asrama.tscn" id="26_iu75t"]
 [ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="27_ktsd2"]
 [ext_resource type="PackedScene" uid="uid://l56i2njw0a8w" path="res://joysticks.tscn" id="28_24pld"]
+[ext_resource type="PackedScene" uid="uid://b2qu1e6u240jx" path="res://Tito.tscn" id="30_3y7ws"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4plb"]
 texture = ExtResource("12_tqrpt")
@@ -107661,6 +107662,13 @@ stream = ExtResource("27_ktsd2")
 autoplay = true
 
 [node name="CanvasLayer" parent="." unique_id=970508207 instance=ExtResource("28_24pld")]
+
+[node name="AnimatedSprite2D" parent="." unique_id=392635246 instance=ExtResource("30_3y7ws")]
+position = Vector2(-3543.0002, 210)
+scale = Vector2(0.4916995, 0.45458984)
+
+[node name="Node2D2" parent="." unique_id=1871060871 instance=ExtResource("19_qkxb8")]
+position = Vector2(-3546, 50)
 
 [editable path="CharacterBody2D"]
 [editable path="masuk kantor"]

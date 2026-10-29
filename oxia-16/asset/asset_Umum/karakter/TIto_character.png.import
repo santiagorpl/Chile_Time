@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br6huw63br2tf"
-path="res://.godot/imported/karakter_kiri.png-99e5b6a8fd5a57c1cf99ce9a3cb15a47.ctex"
+uid="uid://yfkjo71e6a7k"
+path="res://.godot/imported/TIto_character.png-c586ded25e68884b61a09bdd031eeaa4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/Karakter/karakter_santiago/karakter_kiri.png"
-dest_files=["res://.godot/imported/karakter_kiri.png-99e5b6a8fd5a57c1cf99ce9a3cb15a47.ctex"]
+source_file="res://asset/asset_Umum/karakter/TIto_character.png"
+dest_files=["res://.godot/imported/TIto_character.png-c586ded25e68884b61a09bdd031eeaa4.ctex"]
 
 [params]
 

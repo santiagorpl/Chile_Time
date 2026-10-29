@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://b2qu1e6u240jx"]
+
+[ext_resource type="Texture2D" uid="uid://yfkjo71e6a7k" path="res://asset/asset_Umum/karakter/TIto_character.png" id="1_gs106"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2d7u5"]
+atlas = ExtResource("1_gs106")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p10f8"]
+atlas = ExtResource("1_gs106")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rqbo"]
+atlas = ExtResource("1_gs106")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fv86b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2d7u5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p10f8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0rqbo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=392635246]
+sprite_frames = SubResource("SpriteFrames_fv86b")
+autoplay = "default"
+frame_progress = 0.46158695
