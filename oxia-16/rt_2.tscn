@@ -107636,7 +107636,7 @@ scale = Vector2(8.055, 8.055)
 position = Vector2(-149.96896, -34.761017)
 
 [node name="CollisionShape2D" parent="masuk_taman" index="1" unique_id=1778532169]
-position = Vector2(953.6933, -705.6486)
+position = Vector2(955.43134, -692.6132)
 shape = SubResource("RectangleShape2D_8vrlf")
 
 [node name="DestinationPoint" parent="masuk_taman" index="2" unique_id=1463864298]

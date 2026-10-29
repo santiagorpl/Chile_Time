@@ -8489,6 +8489,18 @@ tracks/2/keys = {
 "update": 0,
 "values": [Vector2(2242, 1560)]
 }
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CanvasLayer/VirtualJoystick:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="Animation" id="Animation_mn672"]
 resource_name = "turun p"
@@ -8528,6 +8540,18 @@ tracks/2/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(2242, 1560), Vector2(2437, 2087)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CanvasLayer/VirtualJoystick:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.6333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_eqjq1"]
@@ -9366,4 +9390,8 @@ frame_progress = 0.65094686
 
 [node name="CanvasLayer" parent="." unique_id=970508207 instance=ExtResource("28_vfkbl")]
 
+[node name="VirtualJoystick" parent="CanvasLayer" index="0" unique_id=1053814633]
+visible = false
+
 [editable path="Node2D"]
+[editable path="CanvasLayer"]
