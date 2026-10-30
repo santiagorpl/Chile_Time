@@ -15,14 +15,13 @@ scale = Vector2(-0.621, 0.66)
 script = ExtResource("1_cxkjq")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1664947440]
-scale = Vector2(1.5463555, -0.96493536)
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=863848394]
 layout_mode = 0
-offset_left = 1056.3607
-offset_top = -577.2727
-offset_right = 3098.8677
-offset_bottom = 517.29834
+offset_left = 1062.802
+offset_top = -565.1515
+offset_right = 2982.802
+offset_bottom = 514.8485
 scale = Vector2(-1.0911411, 1.0923798)
 stream = ExtResource("1_wq1v1")
 autoplay = true
@@ -30,10 +29,10 @@ loop = true
 
 [node name="Label" type="Label" parent="." unique_id=1152005652]
 layout_mode = 0
-offset_left = 1133.6553
-offset_top = -725.7576
-offset_right = 1176.6342
-offset_bottom = -692.8943
+offset_left = 2099.8386
+offset_top = -1613.6365
+offset_right = 2179.387
+offset_bottom = -1533.8839
 scale = Vector2(-52.00466, 48.179314)
 theme_override_styles/normal = SubResource("StyleBoxFlat_m0dig")
 script = ExtResource("2_367qq")

@@ -54,11 +54,11 @@ scale = Vector2(-11.8607855, -43.42569)
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=455556130]
 layout_mode = 0
-offset_left = -632.0
-offset_top = -355.99997
-offset_right = 1484.2964
-offset_bottom = 859.2825
-scale = Vector2(0.6001049, 0.5875177)
+offset_left = -634.6154
+offset_top = -323.84616
+offset_right = 2171.3396
+offset_bottom = 1355.6506
+scale = Vector2(0.802, 0.786)
 stream = ExtResource("1_06t4h")
 autoplay = true
 
