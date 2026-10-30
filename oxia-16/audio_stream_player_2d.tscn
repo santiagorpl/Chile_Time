@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c07ia8w5ahiao"]
+
+[ext_resource type="AudioStream" uid="uid://d22rxd6dvam8f" path="res://asset/asset_Umum/audio/main menu/audio_game.mp3" id="1_d2dya"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=832347138]
+stream = ExtResource("1_d2dya")
+autoplay = true

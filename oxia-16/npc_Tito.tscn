@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://b2qu1e6u240jx"]
+
+[ext_resource type="Texture2D" uid="uid://yfkjo71e6a7k" path="res://asset/asset_Umum/karakter/TIto_character.png" id="1_gs106"]
+[ext_resource type="Script" uid="uid://clwjruc0wn7t2" path="res://npc_tito.gd" id="2_dstc4"]
+[ext_resource type="Script" uid="uid://t8epuo1kxj1l" path="res://tito.gd" id="2_whqvs"]
+[ext_resource type="Script" uid="uid://c54w1goyway06" path="res://gambar_tito.gd" id="3_dcox4"]
+[ext_resource type="Texture2D" uid="uid://dkva5a1hd4el2" path="res://asset/asset_Umum/titio_teks.png" id="3_lptsr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2d7u5"]
+atlas = ExtResource("1_gs106")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p10f8"]
+atlas = ExtResource("1_gs106")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rqbo"]
+atlas = ExtResource("1_gs106")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fv86b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2d7u5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p10f8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0rqbo")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m0dig"]
+radius = 150.0
+height = 300.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=392635246]
+sprite_frames = SubResource("SpriteFrames_fv86b")
+autoplay = "default"
+frame_progress = 0.46158695
+script = ExtResource("2_dstc4")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1182834670]
+script = ExtResource("2_whqvs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1652457107]
+position = Vector2(-4, 191)
+shape = SubResource("CapsuleShape2D_m0dig")
+
+[node name="gambar" type="Sprite2D" parent="." unique_id=103764151]
+visible = false
+position = Vector2(88.12505, 18.875)
+scale = Vector2(1.4487302, 1.5473633)
+texture = ExtResource("3_lptsr")
+script = ExtResource("3_dcox4")
+
+[node name="Button" type="Button" parent="gambar" unique_id=1203668381]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[connection signal="pressed" from="gambar/Button" to="." method="_on_button_pressed"]
